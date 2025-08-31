@@ -103,18 +103,24 @@ C {lab_wire.sym} 10 -90 0 0 {name=p31 sig_type=std_logic lab=D2}
 C {lab_wire.sym} 10 -70 0 0 {name=p32 sig_type=std_logic lab=D1}
 C {lab_wire.sym} 10 -50 0 0 {name=p33 sig_type=std_logic lab=D0}
 C {lab_wire.sym} 10 -210 0 0 {name=p34 sig_type=std_logic lab=D8}
-C {vsource.sym} 550 -670 0 0 {name=V13 value="pulse(0 3.3 50n 1n 1n 3200n 6400n)" savecurrent=false}
-C {vsource.sym} 610 -670 0 0 {name=V12 value="pulse(0 3.3  50n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 670 -670 0 0 {name=V11 value="pulse(0 3.3  50n 1n 1n 800n 1600n)" savecurrent=false}
-C {vsource.sym} 730 -670 0 0 {name=V10 value="pulse(0 3.3  50n 1n 1n 400n 800n)" savecurrent=false}
-C {vsource.sym} 790 -670 0 0 {name=V9 value="pulse(0 3.3  50n 1n 1n 200n 400n)" savecurrent=false}
-C {vsource.sym} 850 -670 0 0 {name=V8 value="pulse(0 3.3  50n 1n 1n 100n 200n)" savecurrent=false}
-C {vsource.sym} 70 -670 0 0 {name=V7 value=0 savecurrent=false}
-C {vsource.sym} 130 -670 0 0 {name=V6 value=0 savecurrent=false}
-C {vsource.sym} 190 -670 0 0 {name=V5 value=0 savecurrent=false}
-C {vsource.sym} 250 -670 0 0 {name=V4 value=0 savecurrent=false}
-C {vsource.sym} 310 -670 0 0 {name=V3 value=0 savecurrent=false}
-C {vsource.sym} 370 -670 0 0 {name=V2 value=0 savecurrent=false}
-C {vsource.sym} 430 -670 0 0 {name=V1 value=0 savecurrent=false}
-C {vsource.sym} 490 -670 0 0 {name=V0 value="pulse(0 3.3 50n 1n 1n 6400n 12800n)" savecurrent=false}
-C {code_shown.sym} 80 -990 0 0 {name=s1 only_toplevel=false value=".tran 100p 12800n"}
+C {vsource.sym} 550 -670 0 0 {name=V13 value="pulse(0 3.3 150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 610 -670 0 0 {name=V12 value="pulse(0 3.3 150n 1n 1n 400n 500n)" savecurrent=false}
+C {vsource.sym} 670 -670 0 0 {name=V11 value="pulse(0 3.3 150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 730 -670 0 0 {name=V10 value="pulse(0 3.3 50n 1n 1n 400n 800n)" savecurrent=false}
+C {vsource.sym} 790 -670 0 0 {name=V9 value="pulse(0 3.3 150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 850 -670 0 0 {name=V8 value="pulse(0 3.3 150n 1n 1n 400n 500n)" savecurrent=false}
+C {vsource.sym} 70 -670 0 0 {name=V7 value="pulse(0 3.3  150n 1n 1n 100n 400n)" savecurrent=false}
+C {vsource.sym} 130 -670 0 0 {name=V6 value="pulse(0 3.3  150n 1n 1n 200n 300n)" savecurrent=false}
+C {vsource.sym} 190 -670 0 0 {name=V5 value="pulse(0 3.3  150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 250 -670 0 0 {name=V4 value="pulse(0 3.3  150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 310 -670 0 0 {name=V3 value="pulse(0 3.3  150n 1n 1n 400n 500n)" savecurrent=false}
+C {vsource.sym} 370 -670 0 0 {name=V2 value="pulse(0 3.3  150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 430 -670 0 0 {name=V1 value="pulse(0 3.3  150n 1n 1n 300n 500n)" savecurrent=false}
+C {vsource.sym} 490 -670 0 0 {name=V0 value="pulse(0 3.3  150n 1n 1n 300n 500n)" savecurrent=false}
+C {code_shown.sym} 60 -1000 0 0 {name=s1 only_toplevel=false value=".tran 100p 500n"}
+C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran 14h0000 FIND V(OUT) AT=90n
+.measure tran 14h3fff FIND V(OUT) AT=190n
+.measure tran 14h1fff FIND V(OUT) AT=290n
+.measure tran 14h0fff FIND V(OUT) AT=390n
+.measure tran 14h1111 FIND V(OUT) AT=490n"
+}
