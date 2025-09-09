@@ -66,7 +66,6 @@ N 670 -740 670 -700 {lab=D3}
 N 730 -740 730 -700 {lab=D2}
 N 790 -740 790 -700 {lab=D1}
 N 850 -740 850 -700 {lab=D0}
-C {C:/Users/ISLab2/Documents/minimal_LR/CDAC.sym} 230 -190 0 0 {name=x1}
 C {opin.sym} 420 -190 0 0 {name=p1 lab=OUT}
 C {vsource.sym} -160 -670 0 0 {name=V14 value=3.3 savecurrent=false}
 C {vsource.sym} -100 -670 0 0 {name=V15 value="pulse(0 3.3 50n 1n 1n 50n 100n)"  savecurrent=false}
@@ -124,3 +123,6 @@ C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran
 .measure tran 14h0fff FIND V(OUT) AT=390n
 .measure tran 14h1111 FIND V(OUT) AT=490n"
 }
+C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
+.include C:/Users/ISLab2/Documents/minimal_LR/OSU035.txt"}
+C {CDAC_PNSW.sym} 230 -190 0 0 {name=x1}

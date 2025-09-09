@@ -52,5 +52,3 @@ C {ipin.sym} -240 -290 0 0 {name=p2 lab=A}
 C {ipin.sym} -240 -210 0 0 {name=p3 lab=B}
 C {iopin.sym} -190 30 2 0 {name=p4 lab=VSS}
 C {opin.sym} 160 -140 0 0 {name=p5 lab=Y}
-C {code_shown.sym} -160 -500 0 0 {name=s1 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/minimal.txt"}

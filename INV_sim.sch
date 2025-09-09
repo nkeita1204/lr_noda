@@ -19,7 +19,7 @@ N -40 -20 10 -20 {lab=GND}
 N 10 -20 10 110 {lab=GND}
 N -40 60 -40 110 {lab=GND}
 N -40 110 90 110 {lab=GND}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} 200 0 0 0 {name=x1}
+C {INV.sym} 200 0 0 0 {name=x1}
 C {vsource.sym} -40 30 0 0 {name=V1 value=0 savecurrent=false}
 C {vsource.sym} -40 -70 0 0 {name=V2 value=3.3 savecurrent=false}
 C {opin.sym} 220 0 0 0 {name=p1 lab=OUT}

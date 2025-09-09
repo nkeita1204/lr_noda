@@ -24,7 +24,5 @@ C {opin.sym} 140 -60 0 0 {name=p1 lab=OUT}
 C {ipin.sym} -30 -60 0 0 {name=p2 lab=IN}
 C {iopin.sym} 80 -180 3 0 {name=p3 lab=VDD}
 C {iopin.sym} 80 70 1 0 {name=p4 lab=VSS}
-C {code_shown.sym} 10 -360 0 0 {name=s1 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/minimal.txt"}
 C {lab_wire.sym} 130 -110 0 0 {name=p5 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 140 0 0 0 {name=p6 sig_type=std_logic lab=VSS}

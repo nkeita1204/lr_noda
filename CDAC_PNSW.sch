@@ -36,18 +36,12 @@ N 370 250 370 290 {lab=Vrefl}
 N 50 250 50 290 {lab=Vrefl}
 N -420 250 -420 290 {lab=Vrefl}
 N -870 250 -870 290 {lab=Vrefl}
-N -1630 140 -1600 140 {lab=VSS}
 N -1470 140 -1450 140 {lab=VSS}
-N -1090 140 -1070 140 {lab=VSS}
 N -940 140 -920 140 {lab=VSS}
-N -640 140 -620 140 {lab=VSS}
 N -10 140 0 140 {lab=VSS}
 N -1630 170 -1600 170 {lab=VDD}
-N -1470 170 -1450 170 {lab=VDD}
 N -1090 170 -1070 170 {lab=VDD}
-N -940 170 -920 170 {lab=VDD}
 N -640 170 -620 170 {lab=VDD}
-N -10 170 0 170 {lab=VDD}
 N -1630 200 -1600 200 {lab=D3A}
 N -1470 200 -1450 200 {lab=D3bO}
 N 370 -150 540 -150 {lab=OUT}
@@ -55,7 +49,6 @@ N 610 -150 610 -10 {lab=OUT}
 N 610 150 610 290 {lab=Vrefl}
 N 370 290 610 290 {lab=Vrefl}
 N 530 40 560 40 {lab=VSS}
-N 530 70 560 70 {lab=VDD}
 N 530 100 560 100 {lab=CLK1}
 N -1090 200 -1070 200 {lab=D2A}
 N -940 200 -920 200 {lab=D2bO}
@@ -87,8 +80,6 @@ N -4890 -1690 -4810 -1690 {lab=D10}
 N -4700 -1690 -4600 -1690 {lab=D10b}
 N -4770 -1780 -4770 -1730 {lab=VDD}
 N -490 140 -470 140 {lab=VSS}
-N -490 170 -470 170 {lab=VDD}
-N -180 140 -150 140 {lab=VSS}
 N -180 170 -150 170 {lab=VDD}
 N -490 200 -470 200 {lab=D1bO}
 N -180 200 -150 200 {lab=D0A}
@@ -120,18 +111,12 @@ N -2900 250 -2900 310 {lab=Vrefh}
 N -1830 250 -1830 290 {lab=Vrefl}
 N -2300 250 -2300 290 {lab=Vrefl}
 N -2750 250 -2750 290 {lab=Vrefl}
-N -3510 140 -3480 140 {lab=VSS}
 N -3350 140 -3330 140 {lab=VSS}
-N -2970 140 -2950 140 {lab=VSS}
 N -2820 140 -2800 140 {lab=VSS}
-N -2520 140 -2500 140 {lab=VSS}
 N -1890 140 -1880 140 {lab=VSS}
 N -3510 170 -3480 170 {lab=VDD}
-N -3350 170 -3330 170 {lab=VDD}
 N -2970 170 -2950 170 {lab=VDD}
-N -2820 170 -2800 170 {lab=VDD}
 N -2520 170 -2500 170 {lab=VDD}
-N -1890 170 -1880 170 {lab=VDD}
 N -3510 200 -3480 200 {lab=D7A}
 N -3350 200 -3330 200 {lab=D7bO}
 N -2970 200 -2950 200 {lab=D6A}
@@ -150,8 +135,6 @@ N -2540 -150 -2330 -150 {lab=OUT}
 N -2090 -150 -1910 -150 {lab=OUT}
 N -1760 -150 -1680 -150 {lab=OUT}
 N -2370 140 -2350 140 {lab=VSS}
-N -2370 170 -2350 170 {lab=VDD}
-N -2060 140 -2030 140 {lab=VSS}
 N -2060 170 -2030 170 {lab=VDD}
 N -2370 200 -2350 200 {lab=D5bO}
 N -2060 200 -2030 200 {lab=D4A}
@@ -169,14 +152,10 @@ N -3950 50 -3950 90 {lab=#net10}
 N -3950 50 -3800 50 {lab=#net10}
 N -3950 250 -3950 310 {lab=Vrefh}
 N -3800 250 -3800 290 {lab=Vrefl}
-N -4560 140 -4530 140 {lab=VSS}
 N -4400 140 -4380 140 {lab=VSS}
-N -4020 140 -4000 140 {lab=VSS}
 N -3870 140 -3850 140 {lab=VSS}
 N -4560 170 -4530 170 {lab=VDD}
-N -4400 170 -4380 170 {lab=VDD}
 N -4020 170 -4000 170 {lab=VDD}
-N -3870 170 -3850 170 {lab=VDD}
 N -4560 200 -4530 200 {lab=D9A}
 N -4400 200 -4380 200 {lab=D9bO}
 N -4020 200 -4000 200 {lab=D8A}
@@ -211,18 +190,11 @@ N -5830 250 -5830 310 {lab=Vrefh}
 N -4760 250 -4760 290 {lab=Vrefl}
 N -5230 250 -5230 290 {lab=Vrefl}
 N -5680 250 -5680 290 {lab=Vrefl}
-N -6440 140 -6410 140 {lab=VSS}
 N -6280 140 -6260 140 {lab=VSS}
-N -5900 140 -5880 140 {lab=VSS}
-N -5750 140 -5730 140 {lab=VSS}
-N -5450 140 -5430 140 {lab=VSS}
 N -4820 140 -4810 140 {lab=VSS}
 N -6440 170 -6410 170 {lab=VDD}
-N -6280 170 -6260 170 {lab=VDD}
 N -5900 170 -5880 170 {lab=VDD}
-N -5750 170 -5730 170 {lab=VDD}
 N -5450 170 -5430 170 {lab=VDD}
-N -4820 170 -4810 170 {lab=VDD}
 N -6440 200 -6410 200 {lab=D13A}
 N -6280 200 -6260 200 {lab=D13bO}
 N -5900 200 -5880 200 {lab=D12A}
@@ -242,8 +214,6 @@ N -5470 -150 -5260 -150 {lab=OUT}
 N -5020 -150 -4840 -150 {lab=OUT}
 N -4690 -150 -4610 -150 {lab=OUT}
 N -5300 140 -5280 140 {lab=VSS}
-N -5300 170 -5280 170 {lab=VDD}
-N -4990 140 -4960 140 {lab=VSS}
 N -4990 170 -4960 170 {lab=VDD}
 N -5300 200 -5280 200 {lab=D11bO}
 N -4990 200 -4960 200 {lab=D10A}
@@ -510,7 +480,11 @@ N -6060 -1980 -6010 -1980 {lab=CLK}
 N -5880 -2070 -5880 -2040 {lab=VDD}
 N -5840 -2070 -5840 -2040 {lab=VSS}
 N -5710 -1990 -5670 -1990 {lab=CLK1}
-N -5710 -1970 -5670 -1970 {lab=CLK2}
+N -5710 -1970 -5670 -1970 {lab=#net15}
+N -5670 -1970 -5620 -1970 {lab=#net15}
+N -5580 -2040 -5580 -2010 {lab=VDD}
+N -5580 -1930 -5580 -1900 {lab=VSS}
+N -5510 -1970 -5380 -1970 {lab=CLK2}
 C {capa.sym} 370 -30 0 0 {name=C1
 m=1
 value=10f
@@ -537,50 +511,34 @@ value=80f
 footprint=1206
 device="ceramic capacitor"}
 C {opin.sym} 650 -150 0 0 {name=p1 lab=OUT}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} 50 100 3 0 {name=x2}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -100 100 3 0 {name=x3}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -420 100 3 0 {name=x4}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -570 100 3 0 {name=x5}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -1400 100 3 0 {name=x6}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -1550 100 3 0 {name=x7}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -870 100 3 0 {name=x8}
 C {iopin.sym} -6360 360 1 0 {name=p2 lab=Vrefh}
 C {iopin.sym} -6210 360 1 0 {name=p3 lab=Vrefl}
 C {lab_wire.sym} -10 140 0 0 {name=p6 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -940 140 0 0 {name=p10 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -1090 140 0 0 {name=p11 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1470 140 0 0 {name=p12 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -1470 170 0 0 {name=p14 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -1090 170 0 0 {name=p15 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -940 170 0 0 {name=p16 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -10 170 0 0 {name=p20 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 530 40 0 0 {name=p22 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 530 70 0 0 {name=p23 sig_type=std_logic lab=VDD}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -1020 100 3 0 {name=x9}
 C {lab_wire.sym} 530 100 0 0 {name=p29 sig_type=std_logic lab=CLK1}
 C {ipin.sym} -6090 -1690 0 0 {name=p30 lab=D13}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -5860 -1690 0 0 {name=x15}
+C {INV.sym} -5860 -1690 0 0 {name=x15}
 C {lab_wire.sym} -5800 -1690 0 0 {name=p31 sig_type=std_logic lab=D13b}
 C {lab_wire.sym} -5970 -1800 0 0 {name=p32 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5970 -1590 0 0 {name=p33 sig_type=std_logic lab=VSS}
 C {ipin.sym} -5700 -1690 0 0 {name=p34 lab=D12}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -5470 -1690 0 0 {name=x16}
+C {INV.sym} -5470 -1690 0 0 {name=x16}
 C {lab_wire.sym} -5410 -1690 0 0 {name=p35 sig_type=std_logic lab=D12b}
 C {ipin.sym} -5290 -1690 0 0 {name=p38 lab=D11}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -5060 -1690 0 0 {name=x17}
+C {INV.sym} -5060 -1690 0 0 {name=x17}
 C {lab_wire.sym} -5000 -1690 0 0 {name=p39 sig_type=std_logic lab=D11b}
 C {ipin.sym} -4890 -1690 0 0 {name=p42 lab=D10}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -4660 -1690 0 0 {name=x18}
+C {INV.sym} -4660 -1690 0 0 {name=x18}
 C {lab_wire.sym} -4600 -1690 0 0 {name=p43 sig_type=std_logic lab=D10b}
 C {lab_wire.sym} -1630 200 0 0 {name=p46 sig_type=std_logic lab=D3A}
 C {lab_wire.sym} -1470 200 0 0 {name=p47 sig_type=std_logic lab=D3bO}
 C {lab_wire.sym} -1090 200 0 0 {name=p48 sig_type=std_logic lab=D2A}
 C {lab_wire.sym} -940 200 0 0 {name=p49 sig_type=std_logic lab=D2bO}
-C {lab_wire.sym} -640 140 0 0 {name=p50 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -640 170 0 0 {name=p51 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -490 140 0 0 {name=p52 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -490 170 0 0 {name=p53 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -180 140 0 0 {name=p56 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -180 170 0 0 {name=p57 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -640 200 0 0 {name=p58 sig_type=std_logic lab=D1A}
 C {lab_wire.sym} -490 200 0 0 {name=p59 sig_type=std_logic lab=D1bO}
@@ -606,31 +564,16 @@ m=1
 value=1.28p
 footprint=1206
 device="ceramic capacitor"}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -1830 100 3 0 {name=x1}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -1980 100 3 0 {name=x11}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -2300 100 3 0 {name=x12}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -2450 100 3 0 {name=x13}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -3280 100 3 0 {name=x14}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -3430 100 3 0 {name=x19}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -2750 100 3 0 {name=x20}
 C {lab_wire.sym} -1890 140 0 0 {name=p7 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -2820 140 0 0 {name=p8 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -2970 140 0 0 {name=p9 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -3350 140 0 0 {name=p17 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -3350 170 0 0 {name=p19 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -2970 170 0 0 {name=p21 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -2820 170 0 0 {name=p24 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -1890 170 0 0 {name=p25 sig_type=std_logic lab=VDD}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -2900 100 3 0 {name=x21}
 C {lab_wire.sym} -3510 200 0 0 {name=p26 sig_type=std_logic lab=D7A}
 C {lab_wire.sym} -3350 200 0 0 {name=p27 sig_type=std_logic lab=D7bO}
 C {lab_wire.sym} -2970 200 0 0 {name=p28 sig_type=std_logic lab=D6A}
 C {lab_wire.sym} -2820 200 0 0 {name=p54 sig_type=std_logic lab=D6bO}
-C {lab_wire.sym} -2520 140 0 0 {name=p55 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -2520 170 0 0 {name=p62 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -2370 140 0 0 {name=p63 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -2370 170 0 0 {name=p64 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -2060 140 0 0 {name=p65 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -2060 170 0 0 {name=p66 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -2520 200 0 0 {name=p67 sig_type=std_logic lab=D5A}
 C {lab_wire.sym} -2370 200 0 0 {name=p68 sig_type=std_logic lab=D5bO}
@@ -646,16 +589,9 @@ m=1
 value=5.12p
 footprint=1206
 device="ceramic capacitor"}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -4330 100 3 0 {name=x22}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -4480 100 3 0 {name=x23}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -3800 100 3 0 {name=x24}
 C {lab_wire.sym} -3870 140 0 0 {name=p72 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -4020 140 0 0 {name=p73 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -4400 140 0 0 {name=p74 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -4400 170 0 0 {name=p76 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -4020 170 0 0 {name=p77 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -3870 170 0 0 {name=p78 sig_type=std_logic lab=VDD}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} -3950 100 3 0 {name=x25}
 C {lab_wire.sym} -4560 200 0 0 {name=p79 sig_type=std_logic lab=D9A}
 C {lab_wire.sym} -4400 200 0 0 {name=p80 sig_type=std_logic lab=D9bO}
 C {lab_wire.sym} -4020 200 0 0 {name=p81 sig_type=std_logic lab=D8A}
@@ -680,88 +616,80 @@ m=1
 value=81.92p
 footprint=1206
 device="ceramic capacitor"}
-C {iopin.sym} -6440 140 2 0 {name=p83 lab=VSS}
+C {iopin.sym} -6280 140 2 0 {name=p83 lab=VSS}
 C {lab_wire.sym} -4820 140 0 0 {name=p84 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -5750 140 0 0 {name=p85 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -5900 140 0 0 {name=p86 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -6280 140 0 0 {name=p87 sig_type=std_logic lab=VSS}
 C {iopin.sym} -6440 170 2 0 {name=p88 lab=VDD}
-C {lab_wire.sym} -6280 170 0 0 {name=p89 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5900 170 0 0 {name=p90 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -5750 170 0 0 {name=p91 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -4820 170 0 0 {name=p92 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -6440 200 0 0 {name=p93 sig_type=std_logic lab=D13A}
 C {lab_wire.sym} -6280 200 0 0 {name=p94 sig_type=std_logic lab=D13bO}
 C {lab_wire.sym} -5900 200 0 0 {name=p95 sig_type=std_logic lab=D12A}
 C {lab_wire.sym} -5750 200 0 0 {name=p96 sig_type=std_logic lab=D12bO}
-C {lab_wire.sym} -5450 140 0 0 {name=p97 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -5450 170 0 0 {name=p98 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5300 140 0 0 {name=p99 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} -5300 170 0 0 {name=p100 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -4990 140 0 0 {name=p101 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -4990 170 0 0 {name=p102 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5450 200 0 0 {name=p103 sig_type=std_logic lab=D11A}
 C {lab_wire.sym} -5300 200 0 0 {name=p104 sig_type=std_logic lab=D11bO}
 C {lab_wire.sym} -4820 200 0 0 {name=p105 sig_type=std_logic lab=D10bO}
 C {lab_wire.sym} -4990 200 0 0 {name=p106 sig_type=std_logic lab=D10A}
 C {ipin.sym} -4510 -1690 0 0 {name=p107 lab=D9}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -4280 -1690 0 0 {name=x34}
+C {INV.sym} -4280 -1690 0 0 {name=x34}
 C {lab_wire.sym} -4220 -1690 0 0 {name=p108 sig_type=std_logic lab=D9b}
 C {ipin.sym} -4110 -1690 0 0 {name=p111 lab=D8}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -3880 -1690 0 0 {name=x35}
+C {INV.sym} -3880 -1690 0 0 {name=x35}
 C {lab_wire.sym} -3820 -1690 0 0 {name=p112 sig_type=std_logic lab=D8b}
 C {ipin.sym} -3690 -1690 0 0 {name=p115 lab=D7}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -3460 -1690 0 0 {name=x36}
+C {INV.sym} -3460 -1690 0 0 {name=x36}
 C {lab_wire.sym} -3400 -1690 0 0 {name=p116 sig_type=std_logic lab=D7b}
 C {ipin.sym} -3300 -1690 0 0 {name=p119 lab=D6}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -3070 -1690 0 0 {name=x37}
+C {INV.sym} -3070 -1690 0 0 {name=x37}
 C {lab_wire.sym} -3010 -1690 0 0 {name=p120 sig_type=std_logic lab=D6b}
 C {ipin.sym} -2930 -1690 0 0 {name=p123 lab=D5}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -2700 -1690 0 0 {name=x38}
+C {INV.sym} -2700 -1690 0 0 {name=x38}
 C {lab_wire.sym} -2640 -1690 0 0 {name=p124 sig_type=std_logic lab=D5b}
 C {ipin.sym} -2500 -1690 0 0 {name=p127 lab=D4}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -2270 -1690 0 0 {name=x39}
+C {INV.sym} -2270 -1690 0 0 {name=x39}
 C {lab_wire.sym} -2210 -1690 0 0 {name=p128 sig_type=std_logic lab=D4b}
 C {ipin.sym} -2060 -1690 0 0 {name=p131 lab=D3}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -1830 -1690 0 0 {name=x40}
+C {INV.sym} -1830 -1690 0 0 {name=x40}
 C {lab_wire.sym} -1770 -1690 0 0 {name=p132 sig_type=std_logic lab=D3b}
 C {ipin.sym} -1610 -1690 0 0 {name=p135 lab=D2}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -1380 -1690 0 0 {name=x41}
+C {INV.sym} -1380 -1690 0 0 {name=x41}
 C {lab_wire.sym} -1320 -1690 0 0 {name=p136 sig_type=std_logic lab=D2b}
 C {ipin.sym} -1150 -1690 0 0 {name=p139 lab=D1}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -920 -1690 0 0 {name=x42}
+C {INV.sym} -920 -1690 0 0 {name=x42}
 C {lab_wire.sym} -860 -1690 0 0 {name=p140 sig_type=std_logic lab=D1b}
 C {ipin.sym} -750 -1690 0 0 {name=p143 lab=D0}
-C {C:/Users/ISLab2/Documents/minimal_LR/INV.sym} -520 -1690 0 0 {name=x43}
+C {INV.sym} -520 -1690 0 0 {name=x43}
 C {lab_wire.sym} -460 -1690 0 0 {name=p144 sig_type=std_logic lab=D0b}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -5870 -1310 0 0 {name=x44}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -5480 -1310 0 0 {name=x45}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -5080 -1310 0 0 {name=x46}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -4660 -1310 0 0 {name=x47}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -4280 -1310 0 0 {name=x48}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -3880 -1310 0 0 {name=x49}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -3470 -1310 0 0 {name=x50}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -3060 -1310 0 0 {name=x51}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -2710 -1310 0 0 {name=x52}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -2280 -1310 0 0 {name=x53}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -1840 -1310 0 0 {name=x54}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -1390 -1310 0 0 {name=x55}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -930 -1310 0 0 {name=x56}
-C {C:/Users/ISLab2/Documents/minimal_LR/AND.sym} -530 -1310 0 0 {name=x57}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -5880 -890 0 0 {name=x58}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -5490 -890 0 0 {name=x59}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -5090 -890 0 0 {name=x60}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -4660 -890 0 0 {name=x61}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -4280 -890 0 0 {name=x62}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -3880 -890 0 0 {name=x63}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -3480 -890 0 0 {name=x64}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -3070 -890 0 0 {name=x65}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -2720 -890 0 0 {name=x66}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -2270 -890 0 0 {name=x67}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -1850 -890 0 0 {name=x68}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -1400 -890 0 0 {name=x69}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -940 -890 0 0 {name=x70}
-C {C:/Users/ISLab2/Documents/minimal_LR/OR.sym} -540 -890 0 0 {name=x71}
+C {AND.sym} -5870 -1310 0 0 {name=x44}
+C {AND.sym} -5480 -1310 0 0 {name=x45}
+C {AND.sym} -5080 -1310 0 0 {name=x46}
+C {AND.sym} -4660 -1310 0 0 {name=x47}
+C {AND.sym} -4280 -1310 0 0 {name=x48}
+C {AND.sym} -3880 -1310 0 0 {name=x49}
+C {AND.sym} -3470 -1310 0 0 {name=x50}
+C {AND.sym} -3060 -1310 0 0 {name=x51}
+C {AND.sym} -2710 -1310 0 0 {name=x52}
+C {AND.sym} -2280 -1310 0 0 {name=x53}
+C {AND.sym} -1840 -1310 0 0 {name=x54}
+C {AND.sym} -1390 -1310 0 0 {name=x55}
+C {AND.sym} -930 -1310 0 0 {name=x56}
+C {AND.sym} -530 -1310 0 0 {name=x57}
+C {OR.sym} -5880 -890 0 0 {name=x58}
+C {OR.sym} -5490 -890 0 0 {name=x59}
+C {OR.sym} -5090 -890 0 0 {name=x60}
+C {OR.sym} -4660 -890 0 0 {name=x61}
+C {OR.sym} -4280 -890 0 0 {name=x62}
+C {OR.sym} -3880 -890 0 0 {name=x63}
+C {OR.sym} -3480 -890 0 0 {name=x64}
+C {OR.sym} -3070 -890 0 0 {name=x65}
+C {OR.sym} -2720 -890 0 0 {name=x66}
+C {OR.sym} -2270 -890 0 0 {name=x67}
+C {OR.sym} -1850 -890 0 0 {name=x68}
+C {OR.sym} -1400 -890 0 0 {name=x69}
+C {OR.sym} -940 -890 0 0 {name=x70}
+C {OR.sym} -540 -890 0 0 {name=x71}
 C {lab_wire.sym} -6020 -1420 0 0 {name=p36 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -6020 -970 0 0 {name=p37 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -6030 -1220 0 0 {name=p40 sig_type=std_logic lab=VSS}
@@ -824,24 +752,44 @@ C {lab_wire.sym} -1880 -890 0 0 {name=p179 sig_type=std_logic lab=D3bO}
 C {lab_wire.sym} -1420 -890 0 0 {name=p180 sig_type=std_logic lab=D2bO}
 C {lab_wire.sym} -960 -890 0 0 {name=p181 sig_type=std_logic lab=D1bO}
 C {lab_wire.sym} -560 -890 0 0 {name=p182 sig_type=std_logic lab=D0bO}
-C {lab_wire.sym} -4560 140 0 0 {name=p71 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -4560 170 0 0 {name=p75 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -3510 140 0 0 {name=p5 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -3510 170 0 0 {name=p18 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -1630 140 0 0 {name=p4 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1630 170 0 0 {name=p13 sig_type=std_logic lab=VDD}
 C {ipin.sym} -6060 -1980 0 0 {name=p183 lab=CLK}
-C {C:/Users/ISLab2/Documents/minimal_LR/NOL.sym} -5860 -1980 0 0 {name=x72}
+C {NOL.sym} -5860 -1980 0 0 {name=x72}
 C {lab_wire.sym} -5880 -2070 0 0 {name=p184 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5840 -2070 0 0 {name=p185 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -5670 -1990 0 0 {name=p186 sig_type=std_logic lab=CLK1}
-C {lab_wire.sym} -5670 -1970 0 0 {name=p187 sig_type=std_logic lab=CLK2}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW16.sym} -6300 240 3 0 {name=x30}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW16.sym} -6150 240 3 0 {name=x31}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW8.sym} -5730 50 3 0 {name=x33}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW8.sym} -5580 50 3 0 {name=x32}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW4.sym} -5310 300 3 0 {name=x28}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW4.sym} -5160 300 3 0 {name=x29}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW2.sym} -4760 120 3 0 {name=x26}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW2.sym} -4610 120 3 0 {name=x27}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW16.sym} 670 140 3 0 {name=x10}
+C {lab_wire.sym} -5380 -1970 0 0 {name=p187 sig_type=std_logic lab=CLK2}
+C {NMOSSW16.sym} -6130 250 3 0 {name=x31}
+C {NMOSSW8.sym} -5610 180 3 0 {name=x33}
+C {NMOSSW4.sym} -5160 250 3 0 {name=x29}
+C {NMOSSW2.sym} -4710 210 3 0 {name=x27}
+C {NMOSSW16.sym} 690 150 3 0 {name=x1}
+C {NMOSSW.sym} 100 280 3 0 {name=x2}
+C {NMOSSW.sym} -370 280 3 0 {name=x4}
+C {NMOSSW.sym} -820 280 3 0 {name=x6}
+C {NMOSSW.sym} -1350 280 3 0 {name=x8}
+C {NMOSSW.sym} -1780 280 3 0 {name=x10}
+C {NMOSSW.sym} -2250 280 3 0 {name=x12}
+C {NMOSSW.sym} -2700 280 3 0 {name=x14}
+C {NMOSSW.sym} -3230 280 3 0 {name=x20}
+C {NMOSSW.sym} -3750 280 3 0 {name=x22}
+C {NMOSSW.sym} -4280 280 3 0 {name=x24}
+C {PMOSSW16.sym} -6300 170 3 0 {name=x3}
+C {PMOSSW8.sym} -5730 160 3 0 {name=x5}
+C {PMOSSW4.sym} -5310 210 3 0 {name=x7}
+C {PMOSSW2.sym} -4860 160 3 0 {name=x9}
+C {PMOSSW.sym} -4410 150 3 0 {name=x11}
+C {PMOSSW.sym} -3880 150 3 0 {name=x13}
+C {PMOSSW.sym} -3360 150 3 0 {name=x19}
+C {PMOSSW.sym} -2830 150 3 0 {name=x21}
+C {PMOSSW.sym} -2380 150 3 0 {name=x23}
+C {PMOSSW.sym} -1910 150 3 0 {name=x25}
+C {PMOSSW.sym} -1480 150 3 0 {name=x26}
+C {PMOSSW.sym} -950 150 3 0 {name=x28}
+C {PMOSSW.sym} -500 150 3 0 {name=x30}
+C {PMOSSW.sym} -30 150 3 0 {name=x32}
+C {INV.sym} -5470 -1970 0 0 {name=x73}
+C {lab_wire.sym} -5580 -2040 0 0 {name=p4 sig_type=std_logic lab=VDD}
+C {lab_wire.sym} -5580 -1900 0 0 {name=p5 sig_type=std_logic lab=VSS}

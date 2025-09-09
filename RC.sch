@@ -28,7 +28,7 @@ m=1
 value=81.92p
 footprint=1206
 device="ceramic capacitor"}
-C {C:/Users/ISLab2/Documents/minimal_LR/CMOSSW.sym} 30 -130 0 0 {name=x30}
+C {CMOSSW.sym} 30 -130 0 0 {name=x30}
 C {vsource.sym} -170 -30 0 0 {name=V1 value=3.3 savecurrent=false}
 C {gnd.sym} -30 50 0 0 {name=l1 lab=GND}
 C {vsource.sym} -160 -310 0 0 {name=V4 value=3.3 savecurrent=false}

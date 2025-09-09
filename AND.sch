@@ -66,5 +66,3 @@ C {iopin.sym} 430 -50 2 0 {name=p4 lab=VSS}
 C {opin.sym} 870 -300 0 0 {name=p5 lab=Y}
 C {PMOS_MIN.sym} 710 -370 0 0 {name=M5 model=pch w=3.5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
 C {NMOS_MIN.sym} 710 -250 0 0 {name=M6 model=nch w=3.5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
-C {code_shown.sym} 460 -580 0 0 {name=s1 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/minimal.txt"}
