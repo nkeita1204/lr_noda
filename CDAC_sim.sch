@@ -124,5 +124,7 @@ C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran
 .measure tran 14h1111 FIND V(OUT) AT=490n"
 }
 C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/OSU035.txt"}
+.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
 C {CDAC_PNSW.sym} 230 -190 0 0 {name=x1}
+C {code_shown.sym} 60 -1150 0 0 {name=s4 only_toplevel=false value="
+.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_p3_typ.para"}
