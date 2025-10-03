@@ -49,7 +49,7 @@ N 610 -150 610 -10 {lab=OUT}
 N 610 150 610 290 {lab=Vrefl}
 N 370 290 610 290 {lab=Vrefl}
 N 530 40 560 40 {lab=VSS}
-N 530 100 560 100 {lab=CLK1}
+N 530 100 560 100 {lab=resetPD}
 N -1090 200 -1070 200 {lab=D2A}
 N -940 200 -920 200 {lab=D2bO}
 N -640 200 -620 200 {lab=D1A}
@@ -485,29 +485,40 @@ N -5670 -1970 -5620 -1970 {lab=#net15}
 N -5580 -2040 -5580 -2010 {lab=VDD}
 N -5580 -1930 -5580 -1900 {lab=VSS}
 N -5510 -1970 -5380 -1970 {lab=CLK2}
+N -5900 -2360 -5900 -2330 {lab=VDD}
+N -5900 -2250 -5900 -2220 {lab=VSS}
+N -6050 -2290 -5940 -2290 {lab=PD}
+N -5830 -2290 -5690 -2290 {lab=#net16}
+N -5270 -2360 -5270 -2330 {lab=VDD}
+N -5270 -2270 -5270 -2240 {lab=VSS}
+N -5380 -2310 -5310 -2310 {lab=CLK1}
+N -5380 -2290 -5310 -2290 {lab=#net16}
+N -5690 -2290 -5380 -2290 {lab=#net16}
+N -5230 -2300 -5150 -2300 {lab=resetPD}
+N -5750 140 -5730 140 {lab=VSS}
 C {capa.sym} 370 -30 0 0 {name=C1
 m=1
-value=10f
+value=33f
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} 50 -30 0 0 {name=C2
 m=1
-value=10f
+value=33f
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -420 -30 0 0 {name=C3
 m=1
-value=20f
+value=66f
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -870 -30 0 0 {name=C4
 m=1
-value=40f
+value=132f
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -1400 -30 0 0 {name=C5
 m=1
-value=80f
+value=264f
 footprint=1206
 device="ceramic capacitor"}
 C {opin.sym} 650 -150 0 0 {name=p1 lab=OUT}
@@ -518,7 +529,6 @@ C {lab_wire.sym} -940 140 0 0 {name=p10 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1470 140 0 0 {name=p12 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1090 170 0 0 {name=p15 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 530 40 0 0 {name=p22 sig_type=std_logic lab=VSS}
-C {lab_wire.sym} 530 100 0 0 {name=p29 sig_type=std_logic lab=CLK1}
 C {ipin.sym} -6090 -1690 0 0 {name=p30 lab=D13}
 C {INV.sym} -5860 -1690 0 0 {name=x15}
 C {lab_wire.sym} -5800 -1690 0 0 {name=p31 sig_type=std_logic lab=D13b}
@@ -546,22 +556,22 @@ C {lab_wire.sym} -10 200 0 0 {name=p60 sig_type=std_logic lab=D0bO}
 C {lab_wire.sym} -180 200 0 0 {name=p61 sig_type=std_logic lab=D0A}
 C {capa.sym} -1830 -30 0 0 {name=C6
 m=1
-value=0.16p
+value=528f
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -2300 -30 0 0 {name=C7
 m=1
-value=0.32p
+value=1.056p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -2750 -30 0 0 {name=C8
 m=1
-value=0.64p
+value=2.112p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -3280 -30 0 0 {name=C9
 m=1
-value=1.28p
+value=4.224p
 footprint=1206
 device="ceramic capacitor"}
 C {lab_wire.sym} -1890 140 0 0 {name=p7 sig_type=std_logic lab=VSS}
@@ -581,12 +591,12 @@ C {lab_wire.sym} -1890 200 0 0 {name=p69 sig_type=std_logic lab=D4bO}
 C {lab_wire.sym} -2060 200 0 0 {name=p70 sig_type=std_logic lab=D4A}
 C {capa.sym} -3800 -30 0 0 {name=C10
 m=1
-value=2.56p
+value=8.448p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -4330 -30 0 0 {name=C11
 m=1
-value=5.12p
+value=16.896p
 footprint=1206
 device="ceramic capacitor"}
 C {lab_wire.sym} -3870 140 0 0 {name=p72 sig_type=std_logic lab=VSS}
@@ -598,22 +608,22 @@ C {lab_wire.sym} -4020 200 0 0 {name=p81 sig_type=std_logic lab=D8A}
 C {lab_wire.sym} -3870 200 0 0 {name=p82 sig_type=std_logic lab=D8bO}
 C {capa.sym} -4760 -30 0 0 {name=C12
 m=1
-value=10.24p
+value=33.792p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -5230 -30 0 0 {name=C13
 m=1
-value=20.48p
+value=67.584p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -5680 -30 0 0 {name=C14
 m=1
-value=40.96p
+value=135.168p
 footprint=1206
 device="ceramic capacitor"}
 C {capa.sym} -6210 -30 0 0 {name=C15
 m=1
-value=81.92p
+value=270.336p
 footprint=1206
 device="ceramic capacitor"}
 C {iopin.sym} -6280 140 2 0 {name=p83 lab=VSS}
@@ -793,3 +803,13 @@ C {PMOSSW.sym} -30 150 3 0 {name=x32}
 C {INV.sym} -5470 -1970 0 0 {name=x73}
 C {lab_wire.sym} -5580 -2040 0 0 {name=p4 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -5580 -1900 0 0 {name=p5 sig_type=std_logic lab=VSS}
+C {ipin.sym} -6050 -2290 0 0 {name=p9 lab=PD}
+C {INV.sym} -5790 -2290 0 0 {name=x74}
+C {lab_wire.sym} -5900 -2360 0 0 {name=p11 sig_type=std_logic lab=VDD}
+C {lab_wire.sym} -5900 -2220 0 0 {name=p14 sig_type=std_logic lab=VSS}
+C {OR.sym} -5170 -2300 0 0 {name=x75}
+C {lab_wire.sym} -5270 -2360 0 0 {name=p19 sig_type=std_logic lab=VDD}
+C {lab_wire.sym} -5270 -2240 0 0 {name=p20 sig_type=std_logic lab=VSS}
+C {lab_wire.sym} -5380 -2310 0 0 {name=p16 sig_type=std_logic lab=CLK1}
+C {lab_wire.sym} -5150 -2300 0 0 {name=p23 sig_type=std_logic lab=resetPD}
+C {lab_wire.sym} 530 100 0 0 {name=p24 sig_type=std_logic lab=resetPD}

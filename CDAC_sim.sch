@@ -18,7 +18,6 @@ N 10 -110 80 -110 {lab=D3}
 N 10 -90 80 -90 {lab=D2}
 N 10 -70 80 -70 {lab=D1}
 N 10 -50 80 -50 {lab=D0}
-N 380 -190 420 -190 {lab=OUT}
 N 160 -410 160 -360 {lab=CLK}
 N 190 -410 190 -360 {lab=VDD}
 N 220 -410 220 -360 {lab=GND}
@@ -66,7 +65,12 @@ N 670 -740 670 -700 {lab=D3}
 N 730 -740 730 -700 {lab=D2}
 N 790 -740 790 -700 {lab=D1}
 N 850 -740 850 -700 {lab=D0}
-C {opin.sym} 420 -190 0 0 {name=p1 lab=OUT}
+N 130 -460 130 -360 {lab=PD}
+N 400 -190 490 -190 {lab=DACO}
+N 380 -190 400 -190 {lab=DACO}
+N -220 -740 -220 -700 {lab=PD}
+N -220 -640 -220 -570 {lab=GND}
+N -220 -570 -160 -570 {lab=GND}
 C {vsource.sym} -160 -670 0 0 {name=V14 value=3.3 savecurrent=false}
 C {vsource.sym} -100 -670 0 0 {name=V15 value="pulse(0 3.3 50n 1n 1n 50n 100n)"  savecurrent=false}
 C {gnd.sym} 400 -500 0 0 {name=l1 lab=GND}
@@ -102,6 +106,24 @@ C {lab_wire.sym} 10 -90 0 0 {name=p31 sig_type=std_logic lab=D2}
 C {lab_wire.sym} 10 -70 0 0 {name=p32 sig_type=std_logic lab=D1}
 C {lab_wire.sym} 10 -50 0 0 {name=p33 sig_type=std_logic lab=D0}
 C {lab_wire.sym} 10 -210 0 0 {name=p34 sig_type=std_logic lab=D8}
+C {code_shown.sym} 60 -1000 0 0 {name=s1 only_toplevel=false value=".tran 100p 500n"}
+C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran 14h0000 FIND V(DACO) AT=90n
+.measure tran 14h3fff FIND V(DACO) AT=190n
+.measure tran 14h1fff FIND V(DACO) AT=290n
+.measure tran 14h0fff FIND V(DACO) AT=390n
+.measure tran 14h1111 FIND V(DACO) AT=490n"
+}
+C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
+.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
+C {CDAC_PNSW.sym} 230 -190 0 0 {name=x1}
+C {code_shown.sym} 60 -1150 0 0 {name=s4 only_toplevel=false value="
+.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_p3_typ.para"}
+C {lab_wire.sym} 130 -460 0 0 {name=p25 sig_type=std_logic lab=PD}
+C {opin.sym} 490 -190 0 0 {name=p1 lab=DACO
+}
+C {lab_wire.sym} -220 -740 0 0 {name=p35 sig_type=std_logic lab=PD}
+C {vsource.sym} -220 -670 0 0 {name=V16 value=3.3 savecurrent=false}
+C {code_shown.sym} 60 -1240 0 0 {name=s5 only_toplevel=false value=".measure tran T_rise TRIG V(DACO) VAL=0.33 RISE=1 TARG V(DACO) VAL=2.97 RISE=1"}
 C {vsource.sym} 550 -670 0 0 {name=V13 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
 C {vsource.sym} 610 -670 0 0 {name=V12 value="pulse(0 3.3 100n 1n 1n 400n 500n)" savecurrent=false}
 C {vsource.sym} 670 -670 0 0 {name=V11 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
@@ -116,15 +138,3 @@ C {vsource.sym} 310 -670 0 0 {name=V3 value="pulse(0 3.3 100n 1n 1n 300n 500n)" 
 C {vsource.sym} 370 -670 0 0 {name=V2 value="pulse(0 3.3 100n 1n 1n 400n 500n)" savecurrent=false}
 C {vsource.sym} 430 -670 0 0 {name=V1 value="pulse(0 3.3  100n 1n 1n 300n 500n)" savecurrent=false}
 C {vsource.sym} 490 -670 0 0 {name=V0 value="pulse(0 3.3  100n 1n 1n 300n 500n)" savecurrent=false}
-C {code_shown.sym} 60 -1000 0 0 {name=s1 only_toplevel=false value=".tran 100p 500n"}
-C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran 14h0000 FIND V(OUT) AT=90n
-.measure tran 14h3fff FIND V(OUT) AT=190n
-.measure tran 14h1fff FIND V(OUT) AT=290n
-.measure tran 14h0fff FIND V(OUT) AT=390n
-.measure tran 14h1111 FIND V(OUT) AT=490n"
-}
-C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
-C {CDAC_PNSW.sym} 230 -190 0 0 {name=x1}
-C {code_shown.sym} 60 -1150 0 0 {name=s4 only_toplevel=false value="
-.include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_p3_typ.para"}
