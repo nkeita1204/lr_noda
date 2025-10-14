@@ -17,7 +17,7 @@ N 140 -360 140 -270 {lab=CLK}
 N -60 -360 60 -360 {lab=CLK}
 N 70 -200 70 -160 {lab=IN}
 N 210 -200 210 -160 {lab=OUT}
-C {NMOS_MIN.sym} 140 -270 1 0 {name=M1 model=nch w=20u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 140 -270 1 0 {name=M1 model=nch w=25u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
 C {ipin.sym} 20 -160 0 0 {name=p1 lab=IN}
 C {iopin.sym} 140 -210 1 0 {name=p4 lab=VSS}
 C {opin.sym} 250 -160 0 0 {name=p5 lab=OUT}

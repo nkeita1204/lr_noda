@@ -28,7 +28,7 @@ C {opin.sym} 260 -20 0 0 {name=p2 lab=CLK1}
 C {opin.sym} 540 0 0 0 {name=p3 lab=CLK2}
 C {vsource.sym} -100 -210 0 0 {name=V1 value=3.3 savecurrent=false}
 C {code_shown.sym} 90 -430 0 0 {name=s1 only_toplevel=false value=".tran 10p 100n"}
-C {code_shown.sym} 90 -380 0 0 {name=s2 only_toplevel=false value=".MEASURE TRAN T_DELAY TRIG V(CLK1) VAL=1.65 FALL=1 TARG V(CLK2) VAL=1.65 RISE=1"}
+C {code_shown.sym} 90 -380 0 0 {name=s2 only_toplevel=false value=".MEASURE TRAN T_DELAY TRIG V(CLK1) VAL=1.65 RISE=1 TARG V(CLK2) VAL=1.65 RISE=1"}
 C {INV.sym} 520 0 0 0 {name=x2}
 C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/OSU035.txt"}

@@ -70,5 +70,5 @@ C {ipin.sym} -660 -390 0 0 {name=p2 lab=A}
 C {ipin.sym} -660 -310 0 0 {name=p3 lab=B}
 C {iopin.sym} -610 -70 2 0 {name=p4 lab=VSS}
 C {opin.sym} -170 -320 0 0 {name=p5 lab=Y}
-C {PMOS_MIN.sym} -330 -390 0 0 {name=M5 model=pch w=3.5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
-C {NMOS_MIN.sym} -330 -270 0 0 {name=M6 model=nch w=3.5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} -330 -390 0 0 {name=M5 model=pch w=10u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} -330 -270 0 0 {name=M6 model=nch w=5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}

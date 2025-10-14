@@ -18,8 +18,8 @@ N 120 -60 140 -60 {lab=OUT}
 N 80 -180 80 -170 {lab=VDD}
 N 100 -110 130 -110 {lab=VDD}
 N 100 -0 140 -0 {lab=VSS}
-C {PMOS_MIN.sym} 40 -110 0 0 {name=M2 model=pch w=10u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
-C {NMOS_MIN.sym} 40 0 0 0 {name=M1 model=nch w=5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 40 -110 0 0 {name=M2 model=pch w=5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 40 0 0 0 {name=M1 model=nch w=2.5u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
 C {opin.sym} 140 -60 0 0 {name=p1 lab=OUT}
 C {ipin.sym} -30 -60 0 0 {name=p2 lab=IN}
 C {iopin.sym} 80 -180 3 0 {name=p3 lab=VDD}
