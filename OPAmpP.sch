@@ -96,12 +96,12 @@ N 170 -340 340 -340 {lab=Ib}
 N 170 -340 170 -290 {lab=Ib}
 C {PMOS_MIN.sym} -70 -290 0 1 {name=M1 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=1}
 C {PMOS_MIN.sym} 200 -290 0 0 {name=M2 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=12}
-C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=20}
+C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=25}
 C {NMOS_MIN.sym} 290 50 0 0 {name=M4 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
 C {PMOS_MIN.sym} 120 -110 0 0 {name=M5 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=4}
 C {PMOS_MIN.sym} 370 -110 0 1 {name=M6 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=4}
 C {NMOS_MIN.sym} 200 50 0 1 {name=M7 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
-C {NMOS_MIN.sym} 550 60 0 0 {name=M8 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=10}
+C {NMOS_MIN.sym} 550 60 0 0 {name=M8 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=25}
 C {opin.sym} 710 -110 0 0 {name=p1 lab=Vout}
 C {ipin.sym} 80 -110 0 0 {name=p2 lab=Vinn}
 C {ipin.sym} 420 -110 2 0 {name=p3 lab=Vinp}
@@ -110,7 +110,7 @@ C {iopin.sym} -290 -370 2 0 {name=p5 lab=VDD}
 C {iopin.sym} -170 130 2 0 {name=p6 lab=VSS}
 C {capa.sym} 450 -20 1 0 {name=C1
 m=1
-value=1p
+value=900f
 footprint=1206
 device="ceramic capacitor"}
 C {PMOS_MIN.sym} 0 -330 0 1 {name=M9 model=pch w=20u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
