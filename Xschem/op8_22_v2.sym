@@ -1,0 +1,32 @@
+v {xschem version=3.4.8RC file_version=1.2}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=x1"
+
+}
+V {}
+S {}
+E {}
+L 4 -40 -45 50 0 {}
+L 4 -41 45 50 0 {}
+L 4 -40 -45 50 -45 {}
+L 4 50 -45 50 45 {}
+L 4 -40 45 50 45 {}
+L 4 -40 -45 -40 45 {}
+B 5 -42 18 -38 22 {name=In+ dir=inout}
+B 5 -42 -22 -38 -18 {name=In- dir=inout}
+B 5 18 -42 22 -38 {name=VDD dir=inout}
+B 5 18 38 22 42 {name=VSS dir=inout}
+B 5 -2 38 2 42 {name=bias dir=inout}
+B 5 48 -2 52 2 {name=out dir=inout}
+T {In+} -40 20 0 0 0.2 0.2 {layer=13}
+T {In-} -40 -20 0 0 0.2 0.2 {layer=13}
+T {VDD} 20 -40 0 0 0.2 0.2 {layer=13}
+T {VSS} 20 40 0 0 0.2 0.2 {layer=13}
+T {bias} 0 40 2 0 0.2 0.2 {layer=13}
+T {out} 50 0 2 0 0.2 0.2 {layer=13}
+T {@name} 5 -45 0 0 0.2 0.2 {}
+T {@symname} 5 -5 0 0 0.2 0.2 {}
+C {code_shown.sym} 400 -1210 0 0 {name=s3 only_toplevel=false value="
+.include $HOMEPATH\\/Documents/minimal_LR/ocs65_stl_n3_typ.para"}

@@ -4,8 +4,6 @@ K {}
 V {}
 S {}
 E {}
-N 10 -310 80 -310 {lab=D13}
-N 10 -290 80 -290 {lab=D12}
 N 10 -270 80 -270 {lab=D11}
 N 10 -250 80 -250 {lab=D10}
 N 10 -230 80 -230 {lab=D9}
@@ -37,8 +35,6 @@ N 370 -640 370 -570 {lab=GND}
 N 310 -640 310 -570 {lab=GND}
 N 250 -640 250 -570 {lab=GND}
 N 190 -640 190 -570 {lab=GND}
-N 130 -640 130 -570 {lab=GND}
-N 70 -640 70 -570 {lab=GND}
 N -100 -640 -100 -570 {lab=GND}
 N 400 -570 400 -500 {lab=GND}
 N 220 -570 220 -410 {lab=GND}
@@ -49,9 +45,6 @@ N 190 -440 190 -410 {lab=VDD}
 N 190 -480 190 -440 {lab=VDD}
 N -160 -740 -160 -700 {lab=VDD}
 N -100 -740 -100 -700 {lab=CLK}
-N 70 -740 70 -700 {lab=D13}
-N 130 -730 130 -700 {lab=D12}
-N 130 -740 130 -730 {lab=D12}
 N 190 -740 190 -700 {lab=D11}
 N 250 -740 250 -700 {lab=D10}
 N 310 -740 310 -700 {lab=D9}
@@ -78,8 +71,6 @@ C {lab_wire.sym} 190 -480 0 0 {name=p2 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -160 -740 0 0 {name=p4 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} -100 -740 0 0 {name=p5 sig_type=std_logic lab=CLK}
 C {lab_wire.sym} 160 -410 0 0 {name=p3 sig_type=std_logic lab=CLK}
-C {lab_wire.sym} 70 -740 0 0 {name=p6 sig_type=std_logic lab=D13}
-C {lab_wire.sym} 130 -740 0 0 {name=p7 sig_type=std_logic lab=D12}
 C {lab_wire.sym} 190 -740 0 0 {name=p8 sig_type=std_logic lab=D11}
 C {lab_wire.sym} 250 -740 0 0 {name=p9 sig_type=std_logic lab=D10}
 C {lab_wire.sym} 310 -740 0 0 {name=p10 sig_type=std_logic lab=D9}
@@ -92,8 +83,6 @@ C {lab_wire.sym} 670 -740 0 0 {name=p16 sig_type=std_logic lab=D3}
 C {lab_wire.sym} 730 -740 0 0 {name=p17 sig_type=std_logic lab=D2}
 C {lab_wire.sym} 790 -740 0 0 {name=p18 sig_type=std_logic lab=D1}
 C {lab_wire.sym} 850 -740 0 0 {name=p19 sig_type=std_logic lab=D0}
-C {lab_wire.sym} 10 -310 0 0 {name=p20 sig_type=std_logic lab=D13}
-C {lab_wire.sym} 10 -290 0 0 {name=p21 sig_type=std_logic lab=D12}
 C {lab_wire.sym} 10 -270 0 0 {name=p22 sig_type=std_logic lab=D11}
 C {lab_wire.sym} 10 -250 0 0 {name=p23 sig_type=std_logic lab=D10}
 C {lab_wire.sym} 10 -230 0 0 {name=p24 sig_type=std_logic lab=D9}
@@ -107,11 +96,11 @@ C {lab_wire.sym} 10 -70 0 0 {name=p32 sig_type=std_logic lab=D1}
 C {lab_wire.sym} 10 -50 0 0 {name=p33 sig_type=std_logic lab=D0}
 C {lab_wire.sym} 10 -210 0 0 {name=p34 sig_type=std_logic lab=D8}
 C {code_shown.sym} 60 -1000 0 0 {name=s1 only_toplevel=false value=".tran 100p 500n"}
-C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran x14h0000 FIND V(DACO) AT 90n
-.measure tran x14h3fff FIND V(DACO) AT 190n
-.measure tran x14h1fff FIND V(DACO) AT 290n
-.measure tran x14h0fff FIND V(DACO) AT 390n
-.measure tran x14h1111 FIND V(DACO) AT 490n"
+C {code_shown.sym} 60 -940 0 0 {name=s2 only_toplevel=false value=".measure tran 12h0000 FIND V(DACO) AT=90n
+.measure tran 12hf1ff FIND V(DACO) AT=190n
+.measure tran 12hfff FIND V(DACO) AT=290n
+.measure tran 12h0ff FIND V(DACO) AT=390n
+.measure tran 12h111 FIND V(DACO) AT=490n"
 }
 C {code_shown.sym} 60 -1070 0 0 {name=s3 only_toplevel=false value="
 .include $HOMEPATH\\/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
@@ -122,20 +111,19 @@ C {opin.sym} 490 -190 0 0 {name=p1 lab=DACO
 }
 C {lab_wire.sym} -220 -740 0 0 {name=p35 sig_type=std_logic lab=PD}
 C {vsource.sym} -220 -670 0 0 {name=V16 value=3.3 savecurrent=false}
-C {code_shown.sym} 60 -1240 0 0 {name=s5 only_toplevel=false value=".measure tran T_rise TRIG V(DACO) VAL=0.33 RISE=1 TARG V(DACO) VAL=2.97 RISE=1"}
-C {vsource.sym} 550 -670 0 0 {name=V13 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 610 -670 0 0 {name=V12 value="pulse(0 3.3 100n 1n 1n 400n 500n)" savecurrent=false}
-C {vsource.sym} 670 -670 0 0 {name=V11 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 730 -670 0 0 {name=V10 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 790 -670 0 0 {name=V9 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 850 -670 0 0 {name=V8 value="pulse(0 3.3 100n 1n 1n 400n 500n)" savecurrent=false}
-C {vsource.sym} 70 -670 0 0 {name=V7 value="pulse(0 3.3 100n 1n 1n 100n 400n)" savecurrent=false}
-C {vsource.sym} 130 -670 0 0 {name=V6 value="pulse(0 3.3 100n 1n 1n 200n 300n)" savecurrent=false}
-C {vsource.sym} 190 -670 0 0 {name=V5 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 250 -670 0 0 {name=V4 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 310 -670 0 0 {name=V3 value="pulse(0 3.3 100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 370 -670 0 0 {name=V2 value="pulse(0 3.3 100n 1n 1n 400n 500n)" savecurrent=false}
-C {vsource.sym} 430 -670 0 0 {name=V1 value="pulse(0 3.3  100n 1n 1n 300n 500n)" savecurrent=false}
-C {vsource.sym} 490 -670 0 0 {name=V0 value="pulse(0 3.3  100n 1n 1n 300n 500n)" savecurrent=false}
+C {code_shown.sym} 60 -1240 0 0 {name=s5 only_toplevel=false value="*.measure tran T_rise TRIG V(DACO) VAL=0.33 RISE=1 TARG V(DACO) VAL=2.97 RISE=1"}
 C {CDAC_PNSW.sym} 230 -190 0 0 {name=x1}
-C {code_shown.sym} 840 -1120 0 0 {name=s6 only_toplevel=false value=".meas tran I_V14_avg avg I(V14)"}
+C {code_shown.sym} 840 -1120 0 0 {name=s6 only_toplevel=false value=".meas tran I_avg avg i(V14)"}
+C {code_shown.sym} 840 -1040 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=TRAP"}
+C {vsource.sym} 550 -670 0 0 {name=V1 value=3.3 savecurrent=false}
+C {vsource.sym} 610 -670 0 0 {name=V2 value=3.3 savecurrent=false}
+C {vsource.sym} 670 -670 0 0 {name=V3 value=3.3 savecurrent=false}
+C {vsource.sym} 730 -670 0 0 {name=V17 value=3.3 savecurrent=false}
+C {vsource.sym} 790 -670 0 0 {name=V18 value=3.3 savecurrent=false}
+C {vsource.sym} 850 -670 0 0 {name=V19 value=3.3 savecurrent=false}
+C {vsource.sym} 190 -670 0 0 {name=V20 value=3.3 savecurrent=false}
+C {vsource.sym} 250 -670 0 0 {name=V21 value=3.3 savecurrent=false}
+C {vsource.sym} 310 -670 0 0 {name=V22 value=3.3 savecurrent=false}
+C {vsource.sym} 370 -670 0 0 {name=V23 value=3.3 savecurrent=false}
+C {vsource.sym} 430 -670 0 0 {name=V24 value=3.3 savecurrent=false}
+C {vsource.sym} 490 -670 0 0 {name=V25 value=3.3 savecurrent=false}

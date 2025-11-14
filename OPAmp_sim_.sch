@@ -41,9 +41,9 @@ C {code_shown.sym} 20 -560 0 0 {name=s3 only_toplevel=false value="
 C {code_shown.sym} 20 -640 0 0 {name=s4 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_p3_typ.para"}
 C {vsource.sym} 30 -140 0 0 {name=V2 value="1.65 AC 1" savecurrent=false}
-C {OPAmp.sym} 300 -120 0 0 {name=x1}
 C {res.sym} 500 -80 0 0 {name=R1
 value=1Meg
 footprint=1206
 device=resistor
 m=1}
+C {OPAmpP.sym} 300 -120 0 0 {name=x1}
