@@ -62,39 +62,37 @@ N 120 -880 120 -840 {lab=PD}
 N 120 -780 120 -710 {lab=GND}
 N 120 -710 180 -710 {lab=GND}
 N 470 -600 470 -500 {lab=PD}
-N 1000 -300 1100 -300 {lab=OUT}
-N 1100 -300 1100 -180 {lab=OUT}
-N 790 -180 1100 -180 {lab=OUT}
-N 790 -270 790 -180 {lab=OUT}
-N 1100 -300 1260 -300 {lab=OUT}
-N 900 -540 900 -360 {lab=VDD}
 N 1090 -710 1090 -520 {lab=GND}
 N 1030 -520 1030 -220 {lab=GND}
-N 900 -220 1030 -220 {lab=GND}
-N 1180 -300 1180 -280 {lab=OUT}
-N 1010 -220 1010 -140 {lab=GND}
 N 1010 -140 1180 -140 {lab=GND}
 N 1180 -220 1180 -140 {lab=GND}
-N 1230 -300 1230 -280 {lab=OUT}
 N 1230 -220 1230 -140 {lab=GND}
 N 1180 -140 1230 -140 {lab=GND}
-N 940 -480 1180 -480 {lab=#net2}
-N 1180 -410 1180 -380 {lab=GND}
 N 1030 -520 1090 -520 {lab=GND}
-N 1180 -480 1180 -470 {lab=#net2}
-N 790 -270 830 -270 {lab=OUT}
-N 900 -240 900 -220 {lab=GND}
-N 920 -480 920 -350 {lab=#net2}
-N 920 -480 940 -480 {lab=#net2}
-N 940 -400 940 -340 {lab=PD}
-N 1030 -380 1180 -380 {lab=GND}
-N 530 -540 900 -540 {lab=VDD}
 N 620 -580 620 -550 {lab=Vrefl}
 N -30 -780 -30 -710 {lab=GND}
 N -30 -710 120 -710 {lab=GND}
 N 40 -780 40 -710 {lab=GND}
 N 40 -880 40 -840 {lab=Vrefh}
 N -30 -880 -30 -840 {lab=Vrefl}
+N 1230 -300 1230 -280 {lab=OUT}
+N 810 -270 810 -220 {lab=OUT}
+N 810 -270 830 -270 {lab=OUT}
+N 1000 -300 1260 -300 {lab=OUT}
+N 900 -520 900 -360 {lab=VDD}
+N 530 -520 900 -520 {lab=VDD}
+N 940 -420 940 -340 {lab=PD}
+N 900 -240 900 -140 {lab=GND}
+N 900 -140 1010 -140 {lab=GND}
+N 810 -220 810 -180 {lab=OUT}
+N 810 -180 1100 -180 {lab=OUT}
+N 1100 -300 1100 -180 {lab=OUT}
+N 1030 -220 1030 -140 {lab=GND}
+N 1180 -300 1180 -280 {lab=OUT}
+N 920 -480 920 -350 {lab=#net2}
+N 920 -480 1130 -480 {lab=#net2}
+N 1130 -480 1130 -440 {lab=#net2}
+N 1130 -380 1130 -140 {lab=GND}
 C {vsource.sym} 180 -810 0 0 {name=V14 value=3.3 savecurrent=false}
 C {vsource.sym} 240 -810 0 0 {name=V15 value="pulse(0 3.3 0 1n 1n 100n 200n)"  savecurrent=false}
 C {gnd.sym} 740 -640 0 0 {name=l1 lab=GND}
@@ -126,12 +124,13 @@ C {lab_wire.sym} 350 -230 0 0 {name=p31 sig_type=std_logic lab=D2}
 C {lab_wire.sym} 350 -210 0 0 {name=p32 sig_type=std_logic lab=D1}
 C {lab_wire.sym} 350 -190 0 0 {name=p33 sig_type=std_logic lab=D0}
 C {lab_wire.sym} 350 -350 0 0 {name=p34 sig_type=std_logic lab=D8}
-C {code_shown.sym} 400 -1140 0 0 {name=s1 only_toplevel=false value=".tran 100p 3300n"}
-C {code_shown.sym} 400 -1080 0 0 {name=s2 only_toplevel=false value=".measure tran 12h0000 FIND V(DACO) AT=90n
-.measure tran 12hf1ff FIND V(DACO) AT=190n
-.measure tran 12hfff FIND V(DACO) AT=290n
-.measure tran 12h0ff FIND V(DACO) AT=390n
-.measure tran 12h111 FIND V(DACO) AT=490n"
+C {code_shown.sym} 400 -1150 0 0 {name=s1 only_toplevel=false value=".tran 1u 819200n"
+}
+C {code_shown.sym} 400 -1080 0 0 {name=s2 only_toplevel=false value="*.measure tran 12h0000 FIND V(OUT) AT=190n
+*.measure tran 12hf1ff FIND V(OUT) AT=390n
+*.measure tran 12hfff FIND V(OUT) AT=590n
+*.measure tran 12h0ff FIND V(OUT) AT=790n
+*.measure tran 12h111 FIND V(OUT) AT=990n"
 }
 C {code_shown.sym} 400 -1210 0 0 {name=s3 only_toplevel=false value="
 .include $HOMEPATH\\/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
@@ -141,39 +140,39 @@ C {lab_wire.sym} 470 -600 0 0 {name=p25 sig_type=std_logic lab=PD}
 C {lab_wire.sym} 120 -880 0 0 {name=p35 sig_type=std_logic lab=PD}
 C {vsource.sym} 120 -810 0 0 {name=V16 value=3.3 savecurrent=false}
 C {code_shown.sym} 400 -1380 0 0 {name=s5 only_toplevel=false value="*.measure tran T_rise TRIG V(DACO) VAL=0.33 RISE=1 TARG V(DACO) VAL=2.97 RISE=1"}
-C {CDAC_PNSW.sym} 570 -330 0 0 {name=x1}
 C {code_shown.sym} 1180 -1260 0 0 {name=s6 only_toplevel=false value=".meas tran I_avg avg i(V14)"}
-C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=TRAP"}
+C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=gear
+cshunt=1f"}
 C {opin.sym} 1260 -300 0 0 {name=p6 lab=OUT}
-C {res.sym} 1180 -250 0 0 {name=R1
-value=100k
-footprint=1206
-device=resistor
-m=1}
-C {capa.sym} 1230 -250 0 0 {name=C1
-m=1
-value=1p
-footprint=1206
-device="ceramic capacitor"}
-C {isource.sym} 1180 -440 0 0 {name=I1 value=10u}
-C {code_shown.sym} 1180 -1110 0 0 {name=s8 only_toplevel=false value=".param ccap=100f"}
-C {OPAmpP.sym} 950 -280 0 0 {name=x2}
-C {lab_wire.sym} 940 -400 0 0 {name=p1 sig_type=std_logic lab=PD}
-C {vsource.sym} 40 -810 0 0 {name=V4 value=2.6 savecurrent=false}
+C {vsource.sym} 40 -810 0 0 {name=V4 value=2.4 savecurrent=false}
 C {vsource.sym} -30 -810 0 0 {name=V5 value=0.7 savecurrent=false}
 C {lab_wire.sym} -30 -880 0 0 {name=p7 sig_type=std_logic lab=Vrefl}
 C {lab_wire.sym} 40 -880 0 0 {name=p20 sig_type=std_logic lab=Vrefh}
 C {lab_wire.sym} 620 -580 0 0 {name=p21 sig_type=std_logic lab=Vrefl}
 C {lab_wire.sym} 590 -580 0 0 {name=p36 sig_type=std_logic lab=Vrefh}
-C {vsource.sym} 1190 -810 0 0 {name=V19 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 1130 -810 0 0 {name=V1 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 1070 -810 0 0 {name=V2 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 1010 -810 0 0 {name=V3 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 950 -810 0 0 {name=V6 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 890 -810 0 0 {name=V7 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 830 -810 0 0 {name=V8 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 770 -810 0 0 {name=V9 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
-C {vsource.sym} 710 -810 0 0 {name=V10 value="pulse(0 3.3 200n 1n 1n 200n 400n)" savecurrent=false}
-C {vsource.sym} 650 -810 0 0 {name=V11 value="pulse(0 3.3 400n 1n 1n 400n 800n)" savecurrent=false}
-C {vsource.sym} 590 -810 0 0 {name=V12 value="pulse(0 3.3 800n 1n 1n 800n 1600n)" savecurrent=false}
-C {vsource.sym} 530 -810 0 0 {name=V13 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
+C {vsource.sym} 1190 -810 0 0 {name=V26 value="pulse(0 3.3 200n 1n 1n 200n 400n)" savecurrent=false}
+C {vsource.sym} 1130 -810 0 0 {name=V27 value="pulse(0 3.3 400n 1n 1n 400n 800n)" savecurrent=false}
+C {vsource.sym} 1070 -810 0 0 {name=V28 value="pulse(0 3.3 800n 1n 1n 800n 1600n)" savecurrent=false}
+C {vsource.sym} 1010 -810 0 0 {name=V29 value="pulse(0 3.3 1600n 1n 1n 1600n 3200n)" savecurrent=false}
+C {vsource.sym} 950 -810 0 0 {name=V30 value="pulse(0 3.3 3200n 1n 1n 3200n 6400n)" savecurrent=false}
+C {vsource.sym} 890 -810 0 0 {name=V31 value="pulse(0 3.3 6400n 1n 1n 6400n 12800n)" savecurrent=false}
+C {vsource.sym} 830 -810 0 0 {name=V32 value="pulse(0 3.3 12800n 1n 1n 12800n 25600n)" savecurrent=false}
+C {vsource.sym} 770 -810 0 0 {name=V33 value="pulse(0 3.3 25600n 1n 1n 25600n 51200n)" savecurrent=false}
+C {vsource.sym} 710 -810 0 0 {name=V34 value="pulse(0 3.3 51200n 1n 1n 51200n 102400n)" savecurrent=false}
+C {vsource.sym} 650 -810 0 0 {name=V35 value="pulse(0 3.3 102400n 1n 1n 102400n 204800n)" savecurrent=false}
+C {vsource.sym} 590 -810 0 0 {name=V36 value="pulse(0 3.3 204800n 1n 1n 204800n 409600n)" savecurrent=false}
+C {vsource.sym} 530 -810 0 0 {name=V37 value="pulse(0 3.3 409600n 1n 1n 409600n 819200n)" savecurrent=false}
+C {CDAC_PNSW2.sym} 460 -200 0 0 {name=x1}
+C {OPAmpP.sym} 950 -280 0 0 {name=x2}
+C {lab_wire.sym} 940 -420 0 0 {name=p1 sig_type=std_logic lab=PD}
+C {res.sym} 1230 -250 0 0 {name=R1
+value=100Meg
+footprint=1206
+device=resistor
+m=1}
+C {capa.sym} 1180 -250 0 0 {name=C1
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {isource.sym} 1130 -410 0 0 {name=I0 value=10u}

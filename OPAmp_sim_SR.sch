@@ -54,9 +54,10 @@ C {code_shown.sym} -210 -530 0 0 {name=s3 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
 C {code_shown.sym} -210 -610 0 0 {name=s4 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_p3_typ.para"}
-C {capa.sym} 490 -10 0 0 {name=C1
-m=1
-value=1p
-footprint=1206
-device="ceramic capacitor"}
 C {vsource.sym} 490 -80 0 0 {name=V3 value=0 savecurrent=false}
+C {code_shown.sym} -180 -1050 0 0 {name=s7 only_toplevel=false value=".meas tran I_avg avg i(V3)"}
+C {res.sym} 490 -10 0 0 {name=R1
+value=1Meg
+footprint=1206
+device=resistor
+m=1}
