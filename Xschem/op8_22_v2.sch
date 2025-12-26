@@ -229,11 +229,12 @@ N 640 550 710 550 {lab=VSS}
 N 810 360 810 550 {lab=VSS}
 N 710 550 810 550 {lab=VSS}
 N 810 550 830 550 {lab=VSS}
+N 840 260 910 260 {lab=out}
 C {iopin.sym} 40 280 0 1 {name=p0 lab=In+
 }
 C {iopin.sym} 200 280 0 1 {name=p1 lab=In-
 }
-C {iopin.sym} 840 260 0 1 {name=p2 lab=out
+C {iopin.sym} 910 260 2 1 {name=p2 lab=out
 }
 C {iopin.sym} 830 -20 0 1 {name=p3 lab=VDD
 }
@@ -241,37 +242,45 @@ C {iopin.sym} 830 550 0 1 {name=p4 lab=VSS
 }
 C {iopin.sym} -130 190 0 1 {name=p5 lab=bias
 }
-C {PMOS_MIN.sym} 50 40 0 1 {name=M5 l=5u w=15u}
-C {PMOS_MIN.sym} 50 160 0 1 {name=M6 l=2u w=20u}
-C {PMOS_MIN.sym} 80 40 0 0 {name=M7 l=5u w=15u m=2}
-C {PMOS_MIN.sym} 80 160 0 0 {name=M8 l=2u w=20u m=2}
-C {NMOS_MIN.sym} -60 380 0 1 {name=M1 l=2u w=10u}
-C {NMOS_MIN.sym} -60 480 0 1 {name=M2 l=5u w=5u}
-C {NMOS_MIN.sym} -30 380 0 0 {name=M3 l=2u w=10u}
-C {NMOS_MIN.sym} -30 480 0 0 {name=M4 l=5u w=5u}
-C {PMOS_MIN.sym} 420 40 0 1 {name=M11 l=5u w=20u m=5}
-C {PMOS_MIN.sym} 420 170 0 1 {name=M12 l=2u w=20u m=5}
-C {PMOS_MIN.sym} 450 40 0 0 {name=M13 l=5u w=20u m=5}
-C {PMOS_MIN.sym} 450 170 0 0 {name=M14 l=2u w=20u m=5}
-C {NMOS_MIN.sym} 420 380 0 1 {name=M15 l=2u w=20u m=5}
-C {NMOS_MIN.sym} 420 480 0 1 {name=M16 l=5u w=10u}
-C {NMOS_MIN.sym} 450 380 0 0 {name=M17 l=2u w=20u m=5}
-C {NMOS_MIN.sym} 450 480 0 0 {name=M18 l=5u w=10u}
-C {PMOS_MIN.sym} 530 270 0 1 {name=M19 l=1u w=30u m=10}
-C {NMOS_MIN.sym} 540 480 0 0 {name=M20 l=5u w=1.5u m=4}
-C {PMOS_MIN.sym} 620 40 0 1 {name=M21 l=1u w=30u m=10}
-C {PMOS_MIN.sym} 620 140 0 1 {name=M22 l=1u w=30u m=10}
-C {NMOS_MIN.sym} 690 270 0 1 {name=M23 l=1u w=20u m=5}
-C {PMOS_MIN.sym} 670 100 0 0 {name=M24 l=5u w=4u m=4}
-C {NMOS_MIN.sym} 750 400 0 1 {name=M25 l=1u w=20u m=5}
-C {NMOS_MIN.sym} 750 480 0 1 {name=M26 l=1u w=20u m=5}
-C {PMOS_MIN.sym} 770 200 0 0 {name=M27 l=1u w=30u m=10}
-C {NMOS_MIN.sym} 770 330 0 0 {name=M28 l=1u w=96u m=1}
-C {CAP_MIN.sym} 740 200 0 0 {name=C1 value=\{ccap\}}
-C {CAP_MIN.sym} 740 330 2 0 {name=C2 value=\{ccap\}}
-C {PMOS_MIN.sym} 50 280 0 0 {name=M9 l=3u w=20u m=10}
-C {PMOS_MIN.sym} 190 280 0 1 {name=M10 l=3u w=20u m=10}
-C {NMOS_MIN.sym} 180 220 0 0 {name=M29 l=3u w=20u m=5}
-C {NMOS_MIN.sym} 330 220 0 1 {name=M30 l=3u w=20u m=5}
-C {NMOS_MIN.sym} 220 380 0 0 {name=M31 l=2u w=20u}
-C {NMOS_MIN.sym} 220 480 0 0 {name=M32 l=5u w=10u}
+C {capa.sym} 740 230 0 0 {name=C1
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {capa.sym} 740 300 0 0 {name=C2
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {PMOS_MIN.sym} 50 40 0 1 {name=M1 model=pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 80 40 0 0 {name=M2 model=pch w=15u l=5u as=0 ps=0 ad=0 pd=0 m=2}
+C {PMOS_MIN.sym} 420 40 0 1 {name=M3 model=pch w=20u l=5u as=0 ps=0 ad=0 pd=0 m=5}
+C {PMOS_MIN.sym} 450 40 0 0 {name=M4 model=pch w=20u l=5u as=0 ps=0 ad=0 pd=0 m=5}
+C {PMOS_MIN.sym} 620 40 0 1 {name=M5 model=pch w=15u l=0.5u as=0 ps=0 ad=0 pd=0 m=10}
+C {PMOS_MIN.sym} 670 100 0 0 {name=M6 model=pch w=4u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 770 200 0 0 {name=M7 model=pch w=15u l=0.5u as=0 ps=0 ad=0 pd=0 m=20}
+C {PMOS_MIN.sym} 620 140 0 1 {name=M8 model=pch w=15u l=0.5u as=0 ps=0 ad=0 pd=0 m=10}
+C {PMOS_MIN.sym} 420 170 0 1 {name=M9 model=pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5}
+C {PMOS_MIN.sym} 450 170 0 0 {name=M10 model=pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5}
+C {PMOS_MIN.sym} 50 160 0 1 {name=M11 model=pch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 80 160 0 0 {name=M12 model=pch w=40u l=2u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 50 280 0 0 {name=M13 model=pch w=20u l=3u as=0 ps=0 ad=0 pd=0 m=10}
+C {PMOS_MIN.sym} 190 280 0 1 {name=M14 model=pch w=20u l=3u as=0 ps=0 ad=0 pd=0 m=10}
+C {PMOS_MIN.sym} 530 270 0 1 {name=M15 model=pch w=15u l=0.5u as=0 ps=0 ad=0 pd=0 m=10}
+C {NMOS_MIN.sym} -30 380 0 0 {name=M16 model=nch w=10u l=2u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} -30 480 0 0 {name=M17 model=nch w=5u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 220 480 0 0 {name=M18 model=nch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 220 380 0 0 {name=M19 model=nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 450 380 0 0 {name=M21 model=nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 540 480 0 0 {name=M22 model=nch w=1.5u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 770 330 0 0 {name=M23 model=nch w=20u l=0.5u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} -60 380 0 1 {name=M24 model=nch w=10u l=2u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} -60 480 0 1 {name=M25 model=nch w=5u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 330 220 0 1 {name=M26 model=nch w=20u l=3u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 180 220 0 0 {name=M27 model=nch w=20u l=3u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 420 380 0 1 {name=M28 model=nch w=20u l=2u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 690 270 0 1 {name=M30 model=nch w=10u l=0.5u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 750 400 0 1 {name=M31 model=nch w=10u l=0.5u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 750 480 0 1 {name=M32 model=nch w=10u l=0.5u as=0 ps=0 ad=0 pd=0 m=5}
+C {NMOS_MIN.sym} 450 480 0 0 {name=M20 model=nch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} 420 480 0 1 {name=M29 model=nch w=10u l=5u as=0 ps=0 ad=0 pd=0 m=1}

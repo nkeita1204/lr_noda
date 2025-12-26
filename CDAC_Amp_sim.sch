@@ -144,8 +144,8 @@ C {code_shown.sym} 1180 -1260 0 0 {name=s6 only_toplevel=false value=".meas tran
 C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=gear
 cshunt=1f"}
 C {opin.sym} 1260 -300 0 0 {name=p6 lab=OUT}
-C {vsource.sym} 40 -810 0 0 {name=V4 value=2.4 savecurrent=false}
-C {vsource.sym} -30 -810 0 0 {name=V5 value=0.7 savecurrent=false}
+C {vsource.sym} 40 -810 0 0 {name=V4 value=2.2 savecurrent=false}
+C {vsource.sym} -30 -810 0 0 {name=V5 value=0.3 savecurrent=false}
 C {lab_wire.sym} -30 -880 0 0 {name=p7 sig_type=std_logic lab=Vrefl}
 C {lab_wire.sym} 40 -880 0 0 {name=p20 sig_type=std_logic lab=Vrefh}
 C {lab_wire.sym} 620 -580 0 0 {name=p21 sig_type=std_logic lab=Vrefl}
@@ -166,7 +166,7 @@ C {CDAC_PNSW2.sym} 460 -200 0 0 {name=x1}
 C {OPAmpP.sym} 950 -280 0 0 {name=x2}
 C {lab_wire.sym} 940 -420 0 0 {name=p1 sig_type=std_logic lab=PD}
 C {res.sym} 1230 -250 0 0 {name=R1
-value=100Meg
+value=100k
 footprint=1206
 device=resistor
 m=1}

@@ -7,7 +7,6 @@ E {}
 N 140 -120 320 -120 {lab=out}
 N -110 -90 -110 20 {lab=out}
 N 40 -60 40 60 {lab=GND}
-N 40 -270 40 -180 {lab=#net1}
 N -320 -270 40 -270 {lab=#net1}
 N -320 -270 -320 -120 {lab=#net1}
 N -320 -60 -320 50 {lab=GND}
@@ -37,6 +36,17 @@ N 490 -120 490 -110 {lab=out}
 N 390 30 490 30 {lab=GND}
 N 490 20 490 30 {lab=GND}
 N 490 -50 490 -40 {lab=#net4}
+N 420 -120 420 -110 {lab=out}
+N 420 -50 420 30 {lab=GND}
+N 40 -60 80 -60 {lab=GND}
+N 80 -80 80 -60 {lab=GND}
+N -20 -170 60 -170 {lab=#net2}
+N -20 -170 -20 -70 {lab=#net2}
+N -20 -70 60 -70 {lab=#net2}
+N 60 -80 60 -70 {lab=#net2}
+N -30 -150 20 -100 {lab=#net3}
+N -30 -90 20 -140 {lab=out}
+N 110 -120 140 -120 {lab=out}
 C {gnd.sym} 40 60 0 0 {name=l1 lab=GND}
 C {vsource.sym} -320 -90 0 0 {name=V1 value=3.3 savecurrent=false}
 C {opin.sym} 580 -120 0 0 {name=p1 lab=out}
@@ -48,8 +58,7 @@ C {code_shown.sym} -190 -860 0 0 {name=s1 only_toplevel=false value=".measure tr
 .measure tran t_end_rise   WHEN V(out)=V_end   RISE=1"}
 C {code_shown.sym} -190 -960 0 0 {name=s6 only_toplevel=false value=".measure tran t_start_fall WHEN V(out)=V_end FALL=1
 .measure tran t_end_fall   WHEN V(out)=V_start   FALL=1"}
-C {isource.sym} -390 -90 0 0 {name=I1 value=10u}
-C {OPAmpP.sym} 90 -100 0 0 {name=x1}
+C {isource.sym} -390 -90 2 0 {name=I1 value=10u}
 C {code_shown.sym} -210 -530 0 0 {name=s3 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
 C {code_shown.sym} -210 -610 0 0 {name=s4 only_toplevel=false value="
@@ -57,7 +66,13 @@ C {code_shown.sym} -210 -610 0 0 {name=s4 only_toplevel=false value="
 C {vsource.sym} 490 -80 0 0 {name=V3 value=0 savecurrent=false}
 C {code_shown.sym} -180 -1050 0 0 {name=s7 only_toplevel=false value=".meas tran I_avg avg i(V3)"}
 C {res.sym} 490 -10 0 0 {name=R1
-value=1Meg
+value=100k
 footprint=1206
 device=resistor
 m=1}
+C {capa.sym} 420 -80 0 0 {name=C1
+m=1
+value=1p
+footprint=1206
+device="ceramic capacitor"}
+C {C:/Users/ISLab2/Documents/minimal_LR/Xschem/op8_22_v2.sym} 60 -120 0 0 {name=x1}
