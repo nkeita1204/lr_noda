@@ -28,5 +28,3 @@ T {bias} 0 40 2 0 0.2 0.2 {layer=13}
 T {out} 50 0 2 0 0.2 0.2 {layer=13}
 T {@name} 5 -45 0 0 0.2 0.2 {}
 T {@symname} 5 -5 0 0 0.2 0.2 {}
-C {code_shown.sym} 400 -1210 0 0 {name=s3 only_toplevel=false value="
-.include $HOMEPATH\\/Documents/minimal_LR/ocs65_stl_n3_typ.para"}

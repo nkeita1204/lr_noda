@@ -94,9 +94,9 @@ N 340 -290 510 -290 {lab=Ib}
 N 340 -340 340 -290 {lab=Ib}
 N 170 -340 340 -340 {lab=Ib}
 N 170 -340 170 -290 {lab=Ib}
-C {PMOS_MIN.sym} -70 -290 0 1 {name=M1 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=1}
-C {PMOS_MIN.sym} 200 -290 0 0 {name=M2 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=20}
-C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=25}
+C {PMOS_MIN.sym} -70 -290 0 1 {name=M1 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 200 -290 0 0 {name=M2 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=20}
+C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=25}
 C {NMOS_MIN.sym} 290 50 0 0 {name=M4 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
 C {PMOS_MIN.sym} 120 -110 0 0 {name=M5 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
 C {PMOS_MIN.sym} 370 -110 0 1 {name=M6 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
