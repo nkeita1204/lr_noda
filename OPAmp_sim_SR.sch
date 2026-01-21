@@ -11,7 +11,6 @@ N -320 -270 40 -270 {lab=#net1}
 N -320 -270 -320 -120 {lab=#net1}
 N -320 -60 -320 50 {lab=GND}
 N -320 50 40 50 {lab=GND}
-N 60 -210 60 -170 {lab=#net2}
 N -250 -210 60 -210 {lab=#net2}
 N -390 -210 -250 -210 {lab=#net2}
 N -390 -210 -390 -130 {lab=#net2}
@@ -37,23 +36,15 @@ N 490 20 490 30 {lab=GND}
 N 490 -50 490 -40 {lab=#net4}
 N 420 -120 420 -110 {lab=out}
 N 420 -50 420 30 {lab=GND}
-N 40 -60 80 -60 {lab=GND}
-N 80 -80 80 -60 {lab=GND}
-N -20 -170 60 -170 {lab=#net2}
-N -20 -170 -20 -70 {lab=#net2}
-N -20 -70 60 -70 {lab=#net2}
-N 60 -80 60 -70 {lab=#net2}
-N -30 -150 20 -100 {lab=#net3}
-N -30 -90 20 -140 {lab=out}
-N 110 -120 140 -120 {lab=out}
-N -390 -60 -390 -20 {lab=#net1}
-N -390 -20 -360 -20 {lab=#net1}
-N -360 -20 -350 -160 {lab=#net1}
-N -350 -160 -320 -160 {lab=#net1}
+N -390 -60 -390 -20 {lab=GND}
+N -390 -20 -360 -20 {lab=GND}
+N 40 -270 40 -180 {lab=#net1}
+N 60 -210 60 -170 {lab=#net2}
+N -390 -20 -390 50 {lab=GND}
 C {gnd.sym} 40 60 0 0 {name=l1 lab=GND}
 C {vsource.sym} -320 -90 0 0 {name=V1 value=3.3 savecurrent=false}
 C {opin.sym} 580 -120 0 0 {name=p1 lab=out}
-C {vsource.sym} -180 -120 0 0 {name=V2 value="pulse(0.7 2.6 800n 1n 1n 800n 1600n)"  savecurrent=false}
+C {vsource.sym} -180 -120 0 0 {name=V2 value="pulse(0.3 2 800n 1n 1n 800n 1600n)"  savecurrent=false}
 C {code_shown.sym} -190 -420 0 0 {name=s2 only_toplevel=false value=".tran 0.1n 2u "}
 C {code_shown.sym} -190 -760 0 0 {name=s5 only_toplevel=false value=".param V_start = 0.8
 .param V_end = 2.5"}
@@ -61,7 +52,7 @@ C {code_shown.sym} -190 -860 0 0 {name=s1 only_toplevel=false value=".measure tr
 .measure tran t_end_rise   WHEN V(out)=V_end   RISE=1"}
 C {code_shown.sym} -190 -960 0 0 {name=s6 only_toplevel=false value=".measure tran t_start_fall WHEN V(out)=V_end FALL=1
 .measure tran t_end_fall   WHEN V(out)=V_start   FALL=1"}
-C {isource.sym} -390 -90 2 0 {name=I1 value=40u}
+C {isource.sym} -390 -90 0 0 {name=I1 value=10u}
 C {code_shown.sym} -210 -530 0 0 {name=s3 only_toplevel=false value="
 .include C:/Users/ISLab2/Documents/minimal_LR/ocs65_stl_n3_typ.para"}
 C {code_shown.sym} -210 -610 0 0 {name=s4 only_toplevel=false value="
@@ -78,4 +69,6 @@ m=1
 value=1p
 footprint=1206
 device="ceramic capacitor"}
-C {C:/Users/ISLab2/Documents/minimal_LR/Xschem/op8_22_v2.sym} 60 -120 0 0 {name=x1}
+C {OPAmpP.sym} 90 -100 0 0 {name=x1}
+C {code_shown.sym} -180 -1130 0 0 {name=s8 only_toplevel=false value=".OPTIONS METHOD=gear
+cshunt=1f"}

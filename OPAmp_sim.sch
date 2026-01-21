@@ -21,25 +21,20 @@ N 250 20 510 20 {lab=GND}
 N 600 -140 600 -110 {lab=out}
 N 600 -50 600 20 {lab=GND}
 N 510 20 600 20 {lab=GND}
-N -180 -20 -180 30 {lab=#net2}
-N 30 -170 150 -170 {lab=#net3}
+N -180 -20 -180 30 {lab=GND}
+N 30 -170 150 -170 {lab=#net2}
 N 250 -80 250 40 {lab=GND}
-N 150 -170 180 -170 {lab=#net3}
+N 150 -170 180 -170 {lab=#net2}
 N 100 -110 180 -110 {lab=out}
-N 270 -230 270 -190 {lab=GND}
-N -180 -230 270 -230 {lab=GND}
-N -180 -230 -180 -140 {lab=GND}
-N -180 -80 -180 -20 {lab=#net2}
-N 290 -140 350 -140 {lab=out}
-N 180 -110 200 -160 {lab=out}
-N 180 -170 200 -120 {lab=#net3}
-N 250 -200 260 -180 {lab=#net1}
-N -180 30 240 -100 {lab=#net2}
-N 270 -190 330 -190 {lab=GND}
-N 330 -190 330 20 {lab=GND}
-N 250 -80 260 -100 {lab=GND}
+N 270 -230 270 -190 {lab=#net3}
+N -180 -230 270 -230 {lab=#net3}
+N -180 -230 -180 -140 {lab=#net3}
+N -180 -80 -180 -20 {lab=GND}
 N -110 30 30 30 {lab=GND}
 N 30 30 250 30 {lab=GND}
+N -180 30 -110 30 {lab=GND}
+N 290 -290 290 -180 {lab=#net1}
+N 250 -290 290 -290 {lab=#net1}
 C {gnd.sym} 250 40 0 0 {name=l1 lab=GND}
 C {vsource.sym} -110 -110 0 0 {name=V1 value=3.3 savecurrent=false}
 C {opin.sym} 690 -140 0 0 {name=p1 lab=out}
@@ -64,4 +59,4 @@ device="ceramic capacitor"}
 C {code_shown.sym} 20 -380 0 0 {name=s7 only_toplevel=false value="*.tran 100p 200n"}
 C {vsource.sym} 30 -140 0 0 {name=V2 value="1.65 AC 1" savecurrent=false}
 C {isource.sym} -180 -110 0 0 {name=I1 value=10u}
-C {C:/Users/ISLab2/Documents/minimal_LR/Xschem/op8_22_v2.sym} 240 -140 0 0 {name=x1}
+C {OPAmpP2.sym} 300 -120 0 0 {name=x1}

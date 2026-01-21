@@ -59,8 +59,6 @@ N 390 -20 390 60 {lab=#net3}
 N 590 60 610 60 {lab=VSS}
 N 610 60 610 110 {lab=VSS}
 N 590 110 610 110 {lab=VSS}
-N -20 -290 -20 -220 {lab=Ib}
-N -110 -220 -20 -220 {lab=Ib}
 N -40 -370 -40 -360 {lab=VDD}
 N -40 -300 -40 -290 {lab=Ib}
 N 0 -330 30 -330 {lab=PD}
@@ -94,12 +92,14 @@ N 340 -290 510 -290 {lab=Ib}
 N 340 -340 340 -290 {lab=Ib}
 N 170 -340 340 -340 {lab=Ib}
 N 170 -340 170 -290 {lab=Ib}
-C {PMOS_MIN.sym} -70 -290 0 1 {name=M1 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=1}
-C {PMOS_MIN.sym} 200 -290 0 0 {name=M2 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=20}
-C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=2.5u l=0.5u as=0 ps=0 ad=0 pd=0 m=25}
+N -10 -290 -10 -230 {lab=Ib}
+N -110 -230 -10 -230 {lab=Ib}
+C {PMOS_MIN.sym} -70 -290 0 1 {name=M1 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} 200 -290 0 0 {name=M2 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=12}
+C {PMOS_MIN.sym} 550 -290 0 0 {name=M3 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=25}
 C {NMOS_MIN.sym} 290 50 0 0 {name=M4 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
-C {PMOS_MIN.sym} 120 -110 0 0 {name=M5 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
-C {PMOS_MIN.sym} 370 -110 0 1 {name=M6 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
+C {PMOS_MIN.sym} 120 -110 0 0 {name=M5 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=4}
+C {PMOS_MIN.sym} 370 -110 0 1 {name=M6 model=pch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=4}
 C {NMOS_MIN.sym} 200 50 0 1 {name=M7 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=6}
 C {NMOS_MIN.sym} 550 60 0 0 {name=M8 model=nch w=5u l=1u as=0 ps=0 ad=0 pd=0 m=25}
 C {opin.sym} 710 -110 0 0 {name=p1 lab=Vout}

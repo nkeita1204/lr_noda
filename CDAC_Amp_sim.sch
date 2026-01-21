@@ -141,8 +141,7 @@ C {lab_wire.sym} 120 -880 0 0 {name=p35 sig_type=std_logic lab=PD}
 C {vsource.sym} 120 -810 0 0 {name=V16 value=3.3 savecurrent=false}
 C {code_shown.sym} 400 -1380 0 0 {name=s5 only_toplevel=false value="*.measure tran T_rise TRIG V(DACO) VAL=0.33 RISE=1 TARG V(DACO) VAL=2.97 RISE=1"}
 C {code_shown.sym} 1180 -1260 0 0 {name=s6 only_toplevel=false value=".meas tran I_avg avg i(V14)"}
-C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=gear
-cshunt=1f"}
+C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=gear"}
 C {opin.sym} 1260 -300 0 0 {name=p6 lab=OUT}
 C {vsource.sym} 40 -810 0 0 {name=V4 value=2.2 savecurrent=false}
 C {vsource.sym} -30 -810 0 0 {name=V5 value=0.3 savecurrent=false}
@@ -163,10 +162,9 @@ C {vsource.sym} 650 -810 0 0 {name=V35 value="pulse(0 3.3 102400n 1n 1n 102400n 
 C {vsource.sym} 590 -810 0 0 {name=V36 value="pulse(0 3.3 204800n 1n 1n 204800n 409600n)" savecurrent=false}
 C {vsource.sym} 530 -810 0 0 {name=V37 value="pulse(0 3.3 409600n 1n 1n 409600n 819200n)" savecurrent=false}
 C {CDAC_PNSW2.sym} 460 -200 0 0 {name=x1}
-C {OPAmpP.sym} 950 -280 0 0 {name=x2}
 C {lab_wire.sym} 940 -420 0 0 {name=p1 sig_type=std_logic lab=PD}
 C {res.sym} 1230 -250 0 0 {name=R1
-value=100k
+value=100Meg
 footprint=1206
 device=resistor
 m=1}
@@ -176,3 +174,4 @@ value=1p
 footprint=1206
 device="ceramic capacitor"}
 C {isource.sym} 1130 -410 0 0 {name=I0 value=10u}
+C {OPAmpP2.sym} 950 -280 0 0 {name=x2}
