@@ -143,8 +143,8 @@ C {code_shown.sym} 400 -1380 0 0 {name=s5 only_toplevel=false value="*.measure t
 C {code_shown.sym} 1180 -1260 0 0 {name=s6 only_toplevel=false value=".meas tran I_avg avg i(V14)"}
 C {code_shown.sym} 1180 -1180 0 0 {name=s7 only_toplevel=false value=".OPTIONS METHOD=gear"}
 C {opin.sym} 1260 -300 0 0 {name=p6 lab=OUT}
-C {vsource.sym} 40 -810 0 0 {name=V4 value=2.2 savecurrent=false}
-C {vsource.sym} -30 -810 0 0 {name=V5 value=0.3 savecurrent=false}
+C {vsource.sym} 40 -810 0 0 {name=V4 value=1.85 savecurrent=false}
+C {vsource.sym} -30 -810 0 0 {name=V5 value=0.1 savecurrent=false}
 C {lab_wire.sym} -30 -880 0 0 {name=p7 sig_type=std_logic lab=Vrefl}
 C {lab_wire.sym} 40 -880 0 0 {name=p20 sig_type=std_logic lab=Vrefh}
 C {lab_wire.sym} 620 -580 0 0 {name=p21 sig_type=std_logic lab=Vrefl}
