@@ -5,7 +5,7 @@ import os
 # ==========================================
 # ユーザー設定エリア
 # ==========================================
-TARGET_FILENAME = "extracted_test5.txt" 
+TARGET_FILENAME = "extracted_0322_1226.txt" 
 
 # DAC設定
 RESOLUTION_BITS = 12

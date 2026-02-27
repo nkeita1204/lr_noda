@@ -524,28 +524,28 @@ C {lab_wire.sym} -6140 -2750 0 0 {name=p39 sig_type=std_logic lab=D11b}
 C {ipin.sym} -6030 -2750 0 0 {name=p42 lab=D10}
 C {INV.sym} -5800 -2750 0 0 {name=x18}
 C {lab_wire.sym} -5740 -2750 0 0 {name=p43 sig_type=std_logic lab=D10b}
-C {lab_wire.sym} -2760 -910 0 0 {name=p46 sig_type=std_logic lab=D3A}
-C {lab_wire.sym} -2600 -910 0 0 {name=p47 sig_type=std_logic lab=D3bO}
-C {lab_wire.sym} -2230 -910 0 0 {name=p48 sig_type=std_logic lab=D2A}
-C {lab_wire.sym} -2070 -910 0 0 {name=p49 sig_type=std_logic lab=D2bO}
-C {lab_wire.sym} -1780 -910 0 0 {name=p58 sig_type=std_logic lab=D1A}
-C {lab_wire.sym} -1630 -910 0 0 {name=p59 sig_type=std_logic lab=D1bO}
-C {lab_wire.sym} -4640 -910 0 0 {name=p26 sig_type=std_logic lab=D7A}
-C {lab_wire.sym} -4480 -910 0 0 {name=p27 sig_type=std_logic lab=D7bO}
-C {lab_wire.sym} -4110 -910 0 0 {name=p28 sig_type=std_logic lab=D6A}
-C {lab_wire.sym} -3950 -910 0 0 {name=p54 sig_type=std_logic lab=D6bO}
-C {lab_wire.sym} -3660 -910 0 0 {name=p67 sig_type=std_logic lab=D5A}
-C {lab_wire.sym} -3500 -910 0 0 {name=p68 sig_type=std_logic lab=D5bO}
-C {lab_wire.sym} -3030 -910 0 0 {name=p69 sig_type=std_logic lab=D4bO}
-C {lab_wire.sym} -3190 -910 0 0 {name=p70 sig_type=std_logic lab=D4A}
-C {lab_wire.sym} -5690 -910 0 0 {name=p79 sig_type=std_logic lab=D9A}
-C {lab_wire.sym} -5530 -910 0 0 {name=p80 sig_type=std_logic lab=D9bO}
-C {lab_wire.sym} -5160 -910 0 0 {name=p81 sig_type=std_logic lab=D8A}
-C {lab_wire.sym} -5000 -910 0 0 {name=p82 sig_type=std_logic lab=D8bO}
-C {lab_wire.sym} -6590 -910 0 0 {name=p103 sig_type=std_logic lab=D11A}
-C {lab_wire.sym} -6430 -910 0 0 {name=p104 sig_type=std_logic lab=D11bO}
-C {lab_wire.sym} -5960 -910 0 0 {name=p105 sig_type=std_logic lab=D10bO}
-C {lab_wire.sym} -6120 -910 0 0 {name=p106 sig_type=std_logic lab=D10A}
+C {lab_wire.sym} -2760 -910 0 0 {name=p46 sig_type=std_logic lab=D3P}
+C {lab_wire.sym} -2600 -910 0 0 {name=p47 sig_type=std_logic lab=D3N}
+C {lab_wire.sym} -2230 -910 0 0 {name=p48 sig_type=std_logic lab=D2P}
+C {lab_wire.sym} -2070 -910 0 0 {name=p49 sig_type=std_logic lab=D2N}
+C {lab_wire.sym} -1780 -910 0 0 {name=p58 sig_type=std_logic lab=D1P}
+C {lab_wire.sym} -1630 -910 0 0 {name=p59 sig_type=std_logic lab=D1N}
+C {lab_wire.sym} -4640 -910 0 0 {name=p26 sig_type=std_logic lab=D7P}
+C {lab_wire.sym} -4480 -910 0 0 {name=p27 sig_type=std_logic lab=D7N}
+C {lab_wire.sym} -4110 -910 0 0 {name=p28 sig_type=std_logic lab=D6P}
+C {lab_wire.sym} -3950 -910 0 0 {name=p54 sig_type=std_logic lab=D6N}
+C {lab_wire.sym} -3660 -910 0 0 {name=p67 sig_type=std_logic lab=D5P}
+C {lab_wire.sym} -3500 -910 0 0 {name=p68 sig_type=std_logic lab=D5N}
+C {lab_wire.sym} -3030 -910 0 0 {name=p69 sig_type=std_logic lab=D4N}
+C {lab_wire.sym} -3190 -910 0 0 {name=p70 sig_type=std_logic lab=D4P}
+C {lab_wire.sym} -5690 -910 0 0 {name=p79 sig_type=std_logic lab=D9P}
+C {lab_wire.sym} -5530 -910 0 0 {name=p80 sig_type=std_logic lab=D9N}
+C {lab_wire.sym} -5160 -910 0 0 {name=p81 sig_type=std_logic lab=D8P}
+C {lab_wire.sym} -5000 -910 0 0 {name=p82 sig_type=std_logic lab=D8N}
+C {lab_wire.sym} -6590 -910 0 0 {name=p103 sig_type=std_logic lab=D11P}
+C {lab_wire.sym} -6430 -910 0 0 {name=p104 sig_type=std_logic lab=D11N}
+C {lab_wire.sym} -5960 -910 0 0 {name=p105 sig_type=std_logic lab=D10N}
+C {lab_wire.sym} -6120 -910 0 0 {name=p106 sig_type=std_logic lab=D10P}
 C {ipin.sym} -5650 -2750 0 0 {name=p107 lab=D9}
 C {INV.sym} -5420 -2750 0 0 {name=x34}
 C {lab_wire.sym} -5360 -2750 0 0 {name=p108 sig_type=std_logic lab=D9b}
@@ -606,30 +606,30 @@ C {lab_wire.sym} -3160 -1940 0 0 {name=p151 sig_type=std_logic lab=D3b}
 C {lab_wire.sym} -2700 -1940 0 0 {name=p152 sig_type=std_logic lab=D2b}
 C {lab_wire.sym} -2250 -1940 0 0 {name=p153 sig_type=std_logic lab=D1b}
 C {lab_wire.sym} -1850 -1940 0 0 {name=p154 sig_type=std_logic lab=D0b}
-C {lab_wire.sym} -6230 -2370 0 0 {name=p157 sig_type=std_logic lab=D11A}
-C {lab_wire.sym} -5820 -2370 0 0 {name=p158 sig_type=std_logic lab=D10A}
-C {lab_wire.sym} -5430 -2370 0 0 {name=p159 sig_type=std_logic lab=D9A}
-C {lab_wire.sym} -5040 -2370 0 0 {name=p160 sig_type=std_logic lab=D8A}
-C {lab_wire.sym} -4620 -2370 0 0 {name=p161 sig_type=std_logic lab=D7A}
-C {lab_wire.sym} -4220 -2370 0 0 {name=p162 sig_type=std_logic lab=D6A}
-C {lab_wire.sym} -3870 -2370 0 0 {name=p163 sig_type=std_logic lab=D5A}
-C {lab_wire.sym} -3430 -2370 0 0 {name=p164 sig_type=std_logic lab=D4A}
-C {lab_wire.sym} -3000 -2370 0 0 {name=p165 sig_type=std_logic lab=D3A}
-C {lab_wire.sym} -2540 -2370 0 0 {name=p166 sig_type=std_logic lab=D2A}
-C {lab_wire.sym} -2070 -2370 0 0 {name=p167 sig_type=std_logic lab=D1A}
-C {lab_wire.sym} -1680 -2370 0 0 {name=p168 sig_type=std_logic lab=D0A}
-C {lab_wire.sym} -6250 -1950 0 0 {name=p171 sig_type=std_logic lab=D11bO}
-C {lab_wire.sym} -5820 -1950 0 0 {name=p172 sig_type=std_logic lab=D10bO}
-C {lab_wire.sym} -5440 -1950 0 0 {name=p173 sig_type=std_logic lab=D9bO}
-C {lab_wire.sym} -5040 -1950 0 0 {name=p174 sig_type=std_logic lab=D8bO}
-C {lab_wire.sym} -4640 -1950 0 0 {name=p175 sig_type=std_logic lab=D7bO}
-C {lab_wire.sym} -4240 -1950 0 0 {name=p176 sig_type=std_logic lab=D6bO}
-C {lab_wire.sym} -3890 -1950 0 0 {name=p177 sig_type=std_logic lab=D5bO}
-C {lab_wire.sym} -3420 -1950 0 0 {name=p178 sig_type=std_logic lab=D4bO}
-C {lab_wire.sym} -3020 -1950 0 0 {name=p179 sig_type=std_logic lab=D3bO}
-C {lab_wire.sym} -2560 -1950 0 0 {name=p180 sig_type=std_logic lab=D2bO}
-C {lab_wire.sym} -2100 -1950 0 0 {name=p181 sig_type=std_logic lab=D1bO}
-C {lab_wire.sym} -1700 -1950 0 0 {name=p182 sig_type=std_logic lab=D0bO}
+C {lab_wire.sym} -6230 -2370 0 0 {name=p157 sig_type=std_logic lab=D11P}
+C {lab_wire.sym} -5820 -2370 0 0 {name=p158 sig_type=std_logic lab=D10P}
+C {lab_wire.sym} -5430 -2370 0 0 {name=p159 sig_type=std_logic lab=D9P}
+C {lab_wire.sym} -5040 -2370 0 0 {name=p160 sig_type=std_logic lab=D8P}
+C {lab_wire.sym} -4620 -2370 0 0 {name=p161 sig_type=std_logic lab=D7P}
+C {lab_wire.sym} -4220 -2370 0 0 {name=p162 sig_type=std_logic lab=D6P}
+C {lab_wire.sym} -3870 -2370 0 0 {name=p163 sig_type=std_logic lab=D5P}
+C {lab_wire.sym} -3430 -2370 0 0 {name=p164 sig_type=std_logic lab=D4P}
+C {lab_wire.sym} -3000 -2370 0 0 {name=p165 sig_type=std_logic lab=D3P}
+C {lab_wire.sym} -2540 -2370 0 0 {name=p166 sig_type=std_logic lab=D2P}
+C {lab_wire.sym} -2070 -2370 0 0 {name=p167 sig_type=std_logic lab=D1P}
+C {lab_wire.sym} -1680 -2370 0 0 {name=p168 sig_type=std_logic lab=D0P}
+C {lab_wire.sym} -6250 -1950 0 0 {name=p171 sig_type=std_logic lab=D11N}
+C {lab_wire.sym} -5820 -1950 0 0 {name=p172 sig_type=std_logic lab=D10N}
+C {lab_wire.sym} -5440 -1950 0 0 {name=p173 sig_type=std_logic lab=D9N}
+C {lab_wire.sym} -5040 -1950 0 0 {name=p174 sig_type=std_logic lab=D8N}
+C {lab_wire.sym} -4640 -1950 0 0 {name=p175 sig_type=std_logic lab=D7N}
+C {lab_wire.sym} -4240 -1950 0 0 {name=p176 sig_type=std_logic lab=D6N}
+C {lab_wire.sym} -3890 -1950 0 0 {name=p177 sig_type=std_logic lab=D5N}
+C {lab_wire.sym} -3420 -1950 0 0 {name=p178 sig_type=std_logic lab=D4N}
+C {lab_wire.sym} -3020 -1950 0 0 {name=p179 sig_type=std_logic lab=D3N}
+C {lab_wire.sym} -2560 -1950 0 0 {name=p180 sig_type=std_logic lab=D2N}
+C {lab_wire.sym} -2100 -1950 0 0 {name=p181 sig_type=std_logic lab=D1N}
+C {lab_wire.sym} -1700 -1950 0 0 {name=p182 sig_type=std_logic lab=D0N}
 C {ipin.sym} -7200 -3040 0 0 {name=p183 lab=CLK}
 C {NOL.sym} -7000 -3040 0 0 {name=x72}
 C {lab_wire.sym} -7020 -3130 0 0 {name=p184 sig_type=std_logic lab=VDD}
@@ -678,8 +678,8 @@ C {iopin.sym} -6500 -910 0 0 {name=p25 lab=VDD}
 C {iopin.sym} -6350 -910 0 0 {name=p29 lab=VSS}
 C {lab_wire.sym} -1070 -910 0 0 {name=p6 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1220 -910 0 0 {name=p30 sig_type=std_logic lab=VDD}
-C {lab_wire.sym} -1150 -910 0 0 {name=p31 sig_type=std_logic lab=D0bO}
-C {lab_wire.sym} -1310 -910 0 0 {name=p34 sig_type=std_logic lab=D0A}
+C {lab_wire.sym} -1150 -910 0 0 {name=p31 sig_type=std_logic lab=D0N}
+C {lab_wire.sym} -1310 -910 0 0 {name=p34 sig_type=std_logic lab=D0P}
 C {NMOS_MIN.sym} -570 -960 0 0 {name=M1 model=nch w=5u l=0.35u as=0 ps=0 ad=0 pd=0 m=20}
 C {capa.sym} -1170 -1090 0 0 {name=C2
 m=1
@@ -741,50 +741,50 @@ m=2048
 value=33f
 footprint=1206
 device="ceramic capacitor"}
-C {NMOS_MIN.sym} -1130 -910 0 0 {name=M2 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
-C {PMOS_MIN.sym} -1280 -910 0 0 {name=M5 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {NMOS_MIN.sym} -1130 -910 0 0 {name=M2 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
+C {PMOS_MIN.sym} -1280 -910 0 0 {name=M5 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
 C {lab_wire.sym} -1540 -910 0 0 {name=p7 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -1690 -910 0 0 {name=p8 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -1600 -910 0 0 {name=M3 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=2}
-C {PMOS_MIN.sym} -1750 -910 0 0 {name=M4 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=2}
+C {NMOS_MIN.sym} -1600 -910 0 0 {name=M3 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=2}
+C {PMOS_MIN.sym} -1750 -910 0 0 {name=M4 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=2}
 C {lab_wire.sym} -1990 -910 0 0 {name=p13 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -2140 -910 0 0 {name=p15 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -2050 -910 0 0 {name=M6 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=4}
-C {PMOS_MIN.sym} -2200 -910 0 0 {name=M7 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=4}
+C {NMOS_MIN.sym} -2050 -910 0 0 {name=M6 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=4}
+C {PMOS_MIN.sym} -2200 -910 0 0 {name=M7 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=4}
 C {lab_wire.sym} -2520 -910 0 0 {name=p21 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -2670 -910 0 0 {name=p35 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -2580 -910 0 0 {name=M8 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=8}
-C {PMOS_MIN.sym} -2730 -910 0 0 {name=M9 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=8}
+C {NMOS_MIN.sym} -2580 -910 0 0 {name=M8 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=8}
+C {PMOS_MIN.sym} -2730 -910 0 0 {name=M9 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=8}
 C {lab_wire.sym} -2950 -910 0 0 {name=p52 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -3100 -910 0 0 {name=p62 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -3010 -910 0 0 {name=M10 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=16}
-C {PMOS_MIN.sym} -3160 -910 0 0 {name=M11 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=16}
+C {NMOS_MIN.sym} -3010 -910 0 0 {name=M10 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=16}
+C {PMOS_MIN.sym} -3160 -910 0 0 {name=M11 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=16}
 C {lab_wire.sym} -3420 -910 0 0 {name=p72 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -3570 -910 0 0 {name=p74 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -3480 -910 0 0 {name=M12 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=32}
-C {PMOS_MIN.sym} -3630 -910 0 0 {name=M13 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=32}
+C {NMOS_MIN.sym} -3480 -910 0 0 {name=M12 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=32}
+C {PMOS_MIN.sym} -3630 -910 0 0 {name=M13 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=32}
 C {lab_wire.sym} -3870 -910 0 0 {name=p84 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -4020 -910 0 0 {name=p90 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -3930 -910 0 0 {name=M14 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=64}
-C {PMOS_MIN.sym} -4080 -910 0 0 {name=M15 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=64}
+C {NMOS_MIN.sym} -3930 -910 0 0 {name=M14 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=64}
+C {PMOS_MIN.sym} -4080 -910 0 0 {name=M15 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=64}
 C {lab_wire.sym} -4400 -910 0 0 {name=p93 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -4550 -910 0 0 {name=p94 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -4460 -910 0 0 {name=M16 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=128}
-C {PMOS_MIN.sym} -4610 -910 0 0 {name=M17 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=128}
+C {NMOS_MIN.sym} -4460 -910 0 0 {name=M16 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=128}
+C {PMOS_MIN.sym} -4610 -910 0 0 {name=M17 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=128}
 C {lab_wire.sym} -4920 -910 0 0 {name=p97 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -5070 -910 0 0 {name=p98 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -4980 -910 0 0 {name=M18 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=256}
-C {PMOS_MIN.sym} -5130 -910 0 0 {name=M19 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=256}
+C {NMOS_MIN.sym} -4980 -910 0 0 {name=M18 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=256}
+C {PMOS_MIN.sym} -5130 -910 0 0 {name=M19 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=256}
 C {lab_wire.sym} -5450 -910 0 0 {name=p101 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -5600 -910 0 0 {name=p102 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -5510 -910 0 0 {name=M20 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=512}
-C {PMOS_MIN.sym} -5660 -910 0 0 {name=M21 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=512}
+C {NMOS_MIN.sym} -5510 -910 0 0 {name=M20 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=512}
+C {PMOS_MIN.sym} -5660 -910 0 0 {name=M21 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=512}
 C {lab_wire.sym} -5880 -910 0 0 {name=p137 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} -6030 -910 0 0 {name=p138 sig_type=std_logic lab=VDD}
-C {NMOS_MIN.sym} -5940 -910 0 0 {name=M22 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=1024}
-C {PMOS_MIN.sym} -6090 -910 0 0 {name=M23 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=1024}
-C {NMOS_MIN.sym} -6410 -910 0 0 {name=M24 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=2048}
-C {PMOS_MIN.sym} -6560 -910 0 0 {name=M25 model=pch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=2048}
+C {NMOS_MIN.sym} -5940 -910 0 0 {name=M22 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=1024}
+C {PMOS_MIN.sym} -6090 -910 0 0 {name=M23 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=1024}
+C {NMOS_MIN.sym} -6410 -910 0 0 {name=M24 model=nch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=2048}
+C {PMOS_MIN.sym} -6560 -910 0 0 {name=M25 model=pch w=0.9u l=0.35u as=0 ps=0 ad=0 pd=0 m=2048}
 C {lab_wire.sym} -750 -940 0 0 {name=p10 sig_type=std_logic lab=VSS}
 C {NMOS_MIN.sym} -810 -940 0 0 {name=M26 model=nch w=0.7u l=0.35u as=0 ps=0 ad=0 pd=0 m=1}
 C {lab_wire.sym} -830 -940 2 0 {name=p12 sig_type=std_logic lab=VDD}
